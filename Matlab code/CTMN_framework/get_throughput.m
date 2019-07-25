@@ -32,18 +32,18 @@ function [ throughput ] = get_throughput(  wlans, num_wlans, p_equilibrium, S_ce
             % PSI's index of the backward transition origin state
             [~, psi_ix] = find_state_in_set(S_cell{s_ix}, PSI_cell);             
             % If "wlan_ix" is active in state "psi_ix"
-            disp('========================================')  
-            disp(['wlan_ix = ' num2str(wlan_ix)])  
+%             disp('========================================')  
+%             disp(['wlan_ix = ' num2str(wlan_ix)])  
             if PSI_cell{psi_ix}(wlan_ix) > 0                 
-                disp(['PSI_IX = ' num2str(psi_ix)])                
+%                 disp(['PSI_IX = ' num2str(psi_ix)])                
                 interest_power = Interest_Power_PSI_cell{psi_ix}(wlan_ix);
                 sinr = SINR_cell{psi_ix}(wlan_ix);
-                disp('     + Checking if sinr < CAPTURE_EFFECT or interest_power < Power_Detection_PSI_cell:')
-                disp(['        - sinr: ' num2str(sinr)])
-                disp(['        - CAPTURE_EFFECT: ' num2str(CAPTURE_EFFECT)])
-                disp(['        - interest_power: ' num2str(interest_power)])
-                disp(['        - cca: ' num2str( wlans(wlan_ix).cca)])
-                disp(['        - power detection: ' num2str(Power_Detection_PSI_cell{psi_ix}(wlan_ix))])
+%                 disp('     + Checking if sinr < CAPTURE_EFFECT or interest_power < Power_Detection_PSI_cell:')
+%                 disp(['        - sinr: ' num2str(sinr)])
+%                 disp(['        - CAPTURE_EFFECT: ' num2str(CAPTURE_EFFECT)])
+%                 disp(['        - interest_power: ' num2str(interest_power)])
+%                 disp(['        - cca: ' num2str( wlans(wlan_ix).cca)])
+%                 disp(['        - power detection: ' num2str(Power_Detection_PSI_cell{psi_ix}(wlan_ix))])
                 if (sinr < CAPTURE_EFFECT) || (interest_power < wlans(wlan_ix).cca) %Power_Detection_PSI_cell{psi_ix}(wlan_ix))
                     capture_effect_accomplished = false;              
                 end      
@@ -73,14 +73,14 @@ function [ throughput ] = get_throughput(  wlans, num_wlans, p_equilibrium, S_ce
                 throughput(wlan_ix) = throughput(wlan_ix) + ...
                     (1 - PACKET_ERR_PROBABILITY) * limited_num_pack_agg *...
                     PACKET_LENGTH * mu * pi_s ./ 1E6;                             
-                    disp(['        - PACKET_ERR_PROBABILITY: ' num2str(PACKET_ERR_PROBABILITY)])
-                    disp(['        - NUM_PACKETS_AGGREGATED: ' num2str(NUM_PACKETS_AGGREGATED)])
-                    disp(['        - PACKET_LENGTH: ' num2str(PACKET_LENGTH)])
-                    disp(['        - mu: ' num2str(mu)])
-                    disp(['        - pi_s: ' num2str(pi_s)])
-                    disp(['        - limited_num_pack_agg: ' num2str(limited_num_pack_agg)])
-                    disp(['        - throughput(wlan_ix): ' num2str((1 - PACKET_ERR_PROBABILITY) * limited_num_pack_agg *...
-                        PACKET_LENGTH * mu * pi_s ./ 1E6)])                
+%                     disp(['        - PACKET_ERR_PROBABILITY: ' num2str(PACKET_ERR_PROBABILITY)])
+%                     disp(['        - NUM_PACKETS_AGGREGATED: ' num2str(NUM_PACKETS_AGGREGATED)])
+%                     disp(['        - PACKET_LENGTH: ' num2str(PACKET_LENGTH)])
+%                     disp(['        - mu: ' num2str(mu)])
+%                     disp(['        - pi_s: ' num2str(pi_s)])
+%                     disp(['        - limited_num_pack_agg: ' num2str(limited_num_pack_agg)])
+%                     disp(['        - throughput(wlan_ix): ' num2str((1 - PACKET_ERR_PROBABILITY) * limited_num_pack_agg *...
+%                         PACKET_LENGTH * mu * pi_s ./ 1E6)])                
             end
         end
     end

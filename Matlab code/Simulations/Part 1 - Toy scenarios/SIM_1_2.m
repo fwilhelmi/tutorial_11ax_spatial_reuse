@@ -44,6 +44,10 @@ min_tpt_per_tpc_and_cca_value = NaN*ones(size(cca_levels_srg, 2), size(cca_level
 ind_tpt_per_tpc_and_cca_value_w1 = NaN*ones(size(cca_levels_srg, 2), size(cca_levels_non_srg, 2));
 ind_tpt_per_tpc_and_cca_value_w2 = NaN*ones(size(cca_levels_srg, 2), size(cca_levels_non_srg, 2));
 ind_tpt_per_tpc_and_cca_value_w3 = NaN*ones(size(cca_levels_srg, 2), size(cca_levels_non_srg, 2));
+sinr_wlan_a = NaN*ones(size(cca_levels_srg, 2), size(cca_levels_non_srg, 2));
+sinr_wlan_b = NaN*ones(size(cca_levels_srg, 2), size(cca_levels_non_srg, 2));
+sinr_wlan_c = NaN*ones(size(cca_levels_srg, 2), size(cca_levels_non_srg, 2));
+
 for cca_ix = 1 : size(cca_levels_srg, 2) 
     for cca_ix_aux = 1 : size(cca_levels_non_srg, 2)    
         disp('---------------------------')
@@ -68,6 +72,9 @@ for cca_ix = 1 : size(cca_levels_srg, 2)
         ind_tpt_per_tpc_and_cca_value_w1(cca_ix, cca_ix_aux) = throughput(1);     
         ind_tpt_per_tpc_and_cca_value_w2(cca_ix, cca_ix_aux) = throughput(2); 
         ind_tpt_per_tpc_and_cca_value_w3(cca_ix, cca_ix_aux) = throughput(3); 
+        sinr_wlan_a(cca_ix, cca_ix_aux) = average_sinr_per_wlan(1);     
+        sinr_wlan_b(cca_ix, cca_ix_aux) = average_sinr_per_wlan(2); 
+        sinr_wlan_c(cca_ix, cca_ix_aux) = average_sinr_per_wlan(3); 
     end
 end
 

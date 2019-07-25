@@ -10,7 +10,7 @@
 
 %%% File description: main script for running WLAN's CTMN analysis
 
-function [throughput] = function_main_sfctmn(wlans)
+function [throughput, average_sinr_per_wlan] = function_main_sfctmn(wlans)
 
     close all
     % Display framework header
@@ -88,30 +88,6 @@ function [throughput] = function_main_sfctmn(wlans)
     % Compute the MCS according to the SINR in isolation mode
     mcs_per_wlan_per_state = compute_mcs(PSI_cell, Interest_Power_PSI_cell, num_channels);   
        
-%     for i = 2 : size(PSI_cell, 2)
-%         disp('----------------------')
-%         disp(['STATE' num2str(i)])
-%         disp('Tx_Power_Linear_PSI_cell')
-%         pow2db(Tx_Power_Linear_PSI_cell{i})
-% %         PSI_cell{i}
-%         disp('Power_AP_PSI_cell')
-%         Power_AP_PSI_cell{i}
-%         disp('mcs_per_wlan_per_state')
-%         mcs_per_wlan_per_state{i}
-%         disp('Power_STA_PSI_cell')
-%         Power_STA_PSI_cell{i}
-%         disp('Interest_Power_PSI_cell')
-%         Interest_Power_PSI_cell{i}'
-% % %         Power_STA_PSI_cell{i}
-% % %         Interest_Power_PSI_cell{i}
-% %         disp('SINR_cell')
-% %         SINR_cell{i}       
-%         disp('Power_Detection_PSI_cell')
-%         Power_Detection_PSI_cell{i}
-% %         disp('Individual_Power_AP_PSI_cell')
-% %         Individual_Power_AP_PSI_cell{i}
-%     end
-
     %% FEASIBLE STATES SPACE (S)
     % Identify feasible states space (S) according to spatial and spectrum requirements.
     display_with_flag(' ', flag_general_logs)
@@ -120,9 +96,7 @@ function [throughput] = function_main_sfctmn(wlans)
         PSI_cell, Power_AP_PSI_cell, Power_Detection_PSI_cell, Individual_Power_AP_PSI_cell, num_channels, wlans, mcs_per_wlan_per_state, ...
         Interest_Power_PSI_cell, SINR_cell, flag_logs_feasible_space);
     display_with_flag([LOG_LVL2 'Feasible state space (S) identified! There are ' num2str(S_num_states) ' feasible states.'], flag_general_logs)
-    
-    %Q
-    
+       
     %% MARKOV CHAIN
     % Solve Markov Chain from equilibrium distribution
     display_with_flag(' ', flag_general_logs)
@@ -134,6 +108,47 @@ function [throughput] = function_main_sfctmn(wlans)
     p_equilibrium = mrdivide([zeros(1,size(Q,1)) 1],[Q ones(size(Q,1),1)]);
     
     p_equilibrium
+         
+    % Compute the average SINR experienced per each WLAN in the states in which it is active
+    num_states = zeros(1, num_wlans);
+    cum_sinr = zeros(1, num_wlans);
+    for s_ix = 2 : size(S_cell, 2)
+%         disp('----------------------')
+%         disp(['STATE' num2str(i)])
+%         disp('Tx_Power_Linear_PSI_cell')
+%         pow2db(Tx_Power_Linear_PSI_cell{i})
+%         PSI_cell{i}
+%         disp('Power_AP_PSI_cell')
+%         Power_AP_PSI_cell{i}
+%         disp('mcs_per_wlan_per_state')
+%         mcs_per_wlan_per_state{i}
+%         disp('Power_STA_PSI_cell')
+%         Power_STA_PSI_cell{i}
+%         disp('Interest_Power_PSI_cell')
+%         Interest_Power_PSI_cell{i}'
+% %         Power_STA_PSI_cell{i}
+% %         Interest_Power_PSI_cell{i}
+%         disp('SINR_cell')
+%         SINR_cell{i}       
+%         disp('Power_Detection_PSI_cell')
+%         Power_Detection_PSI_cell{i}
+%         disp('Individual_Power_AP_PSI_cell')
+%         Individual_Power_AP_PSI_cell{i}
+        for w = 1 : num_wlans
+            disp(['WLAN ' num2str(w)])
+            if S_cell{s_ix}(w) > 0
+                disp(['	- s_ix ' num2str(s_ix)])
+                disp(['	- S_cell{s_ix}(w) ' num2str(S_cell{s_ix}(w))])
+                [~, psi_ix] = find_state_in_set(S_cell{s_ix}, PSI_cell);                  
+                cum_sinr(w) = cum_sinr(w) + SINR_cell{psi_ix}(w) * p_equilibrium(s_ix);
+                disp(['	- SINR_cell{psi_ix}(w) ' num2str(SINR_cell{psi_ix}(w))])
+                num_states(w) = num_states(w) + 1;
+            end
+        end
+    end
+    
+    average_sinr_per_wlan = cum_sinr;%cum_sinr./num_states;
+    disp(['average_sinr_per_wlan: ' num2str(average_sinr_per_wlan)])
     
     [Q_is_reversible, error_reversible] = isreversible(Q,p_equilibrium,1e-8); % Alessandro code for checking reversibility
     display_with_flag([LOG_LVL2 'Equilibrium distribution found! Prob. of being in each possible state:'], flag_general_logs)

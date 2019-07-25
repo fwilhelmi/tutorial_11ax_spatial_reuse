@@ -648,7 +648,7 @@
 	%% TB communications
 	\subsection{Triggered-based communications}
 	\label{section:tb_communication}
-	As previously pointed out, one of the 11ax SR operations relies on TB transmissions \cite{bellalta2019ap}. Roughly, in a TB communication, an AP schedules UL transmissions from one or more STAs. To that purpose, a Trigger Frame (TF) is sent by a given AP to indicate the group of users that are allowed to transmit during the next Transmission Opportunity (TXOP), along with other relevant information. Fig. \ref{fig:TB_transmission_example} illustrates an example of a TB transmission. After gaining access to the channel, the AP first sends a TF packet, which is received by HE STAs. Upon successful reception of the TF, STAs start their TB UL transmissions simultaneously, which can be enabled by using multiple antenna technologies (i.e., MU-MIMO) or different OFDMA subcarriers. Once all the transmissions are finished, the AP acknowledges all the packets with a multi-station block ACK (MACK).
+	As previously pointed out, one of the 11ax SR operations relies on TB transmissions \cite{bellalta2019ap}. Roughly, in a TB communication, an AP schedules UL transmissions from one or more STAs. To that purpose, a Trigger Frame (TF) is sent by a given AP to indicate the group of users that are allowed to transmit during the current Transmission Opportunity (TXOP), along with other relevant information. Fig. \ref{fig:TB_transmission_example} illustrates an example of a TB transmission. After gaining access to the channel, the AP first sends a TF packet, which is received by HE STAs. Upon successful reception of the TF, STAs start their TB UL transmissions simultaneously, which can be enabled by using multiple antenna technologies (i.e., MU-MIMO) or different OFDMA subcarriers. Once all the transmissions are finished, the AP acknowledges all the packets with a multi-station block ACK (MACK).
 	\begin{figure}[ht!]
 		\centering
 		\includegraphics[width=\columnwidth]{fig_8}
@@ -1176,7 +1176,7 @@
 				\multicolumn{1}{|c|}{} & Allowed sensitivity levels, $\mathcal{S}$ & -82 to -62 (1 dBm steps) \\
 				\hline
 				% Other
-		    	\multicolumn{1}{|c|}{\multirow{2}{*}{\centering\rotatebox[origin=c]{90}{Misc.  }}} & Traffic model, $\Lambda$ & Downlink\\
+		    	\multicolumn{1}{|c|}{\multirow{2}{*}{\centering\rotatebox[origin=c]{90}{Misc.  }}} & Traffic model, $\Lambda$ & Downlink (UDP)\\
 				\cline{2-3} 
 				\multicolumn{1}{|c|}{} & Traffic generation ratio, $l$ & 1,000, 2,000 and 10,000 pkts/s\\ 
 				\cline{2-3} 
@@ -1208,8 +1208,8 @@
 	%%% TRAFFIC LOAD
 	\subsection{Traffic load}
 	\label{section:random_scenarios_traffic_load}
-	In addition to network density, the traffic load is another key factor to be studied with regards to the SR operation. To that purpose, we focus on the second densest scenario, which has been previously shown to achieve the maximum gains of the SR operation. In particular, we provide three different traffic loads, which are the same for all the WLANs: \emph{i)} low (1,000 packets/s, i.e., 12 Mbps), \emph{ii)} medium (2,000 packets/s, i.e., 60 Mbps), and \emph{iii)} high (10,000 packets/s, i.e., 120 Mbps). 
-	
+	In addition to network density, the traffic load is another key factor to be studied with regards to the SR operation. To that purpose, we focus on the second densest scenario, which has been previously shown to achieve the maximum gains of the SR operation. In particular, we provide three different traffic loads ($l$), which are the same for all the WLANs: \emph{i)} low (1,000 packets/s, i.e., 12 Mbps), \emph{ii)} medium (2,000 packets/s, i.e., 24 Mbps), and \emph{iii)} high (10,000 packets/s, i.e., 120 Mbps). The traffic type considered is UDP in the downlink, which injects packets to the AP's queue following a Poisson distribution with $\lambda$ equal to the traffic load considered in each case.
+		
 	Fig. \ref{fig:SIM_2_2} compares the performance achieved by using the default CCA/CS and by applying the SR operation. As done before, results target the individual performance of $\text{WLAN}_A$ and the average performance of the other WLANs. In particular, Fig. \ref{fig:SIM_2_2_2} shows the maximum improvements achieved by WLAN$_A$ in terms of throughput. Notice that the SR configuration considers the OBSS/PD values that maximize WLAN$_A$'s throughput. Based on that configuration, Fig. \ref{fig:SIM_2_2_1} shows the average channel occupancy (in \%).
 	
 	\begin{figure}[ht!]
@@ -1246,7 +1246,7 @@
 		\caption{Mean performance improvements achieved for each SR setting by WLAN$_A$ ($A$) and the others ($O$). The results are shown for the OBSS/PD values that maximize the performance of WLAN$_A$.}\label{fig:SIM_2_3}
 	\end{figure}
 	
-	As shown in Fig. \ref{fig:SIM_2_3_1}, $\text{WLAN}_A$ achieves similar performance improvements, regardless of whether the environment applies SR or not. In particular, a high gain is noticed on the average delay. Moreover, regarding the others' performance (Fig. \ref{fig:SIM_2_3_1}), a null improvement is observed on the throughput, even for the \emph{all SR} context. In contrast, the delay is notably reduced as the number of WLANs using SR increases.
+	As shown in Fig. \ref{fig:SIM_2_3_1}, $\text{WLAN}_A$ achieves similar performance improvements, regardless of whether the environment applies SR or not. In particular, a high gain is noticed on the average delay. Moreover, regarding the others' performance (Fig. \ref{fig:SIM_2_3_2}), a null improvement is observed on the throughput, even for the \emph{all SR} context. In contrast, the delay is notably reduced as the number of WLANs using SR increases.
 	
 	% ----------------------------------
 	% -
@@ -1264,7 +1264,7 @@
 		\item \textbf{Election of SRGs:} similarly to the BSS color, the SRG is used to sub-classify inter-BSS frames, so that different PD policies can be applied to increase spectral efficiency. However, forming SRGs is not trivial, since inter-WLAN interactions must be carefully captured to properly taking advantage of the SR operation. The set of policies regarding SRGs may be decided by the APs, as a result of a previous information gathering (e.g., after experiencing several packet losses for the default configuration).
 		\item \textbf{Establishment of PD thresholds:} the election of PD thresholds for each type of frame (SRG, and non-SRG) must be carefully done. On the one hand, too low values may lead to null improvement, thus framing the legacy operation whereby the channel is shared. On the other hand, too high values may generate performance anomalies such as the hidden-terminal problem or flow starvation. In order to properly establish each PD threshold, all the possible interactions between WLANs must be captured on a per-STA basis.
 		\item \textbf{Optimal transmit power:} the current transmit power restriction is useful to prevent the accentuation of unfair situations. However, the performance of the SR operation may be further increased in case of properly leveraging the transmit power according to the noticed interactions among nodes.
-		\item \textbf{Disabling the SR operation:} there are situations in which the SR operation may be harmful to certain devices (e.g., in terms of fairness). Therefore, a given WLAN must be able to identify whether the SR operation must be disabled or not. This can be achieved by setting the OBSS/PD threshold to the default CCA/CS value.
+		\item \textbf{Disabling the SR operation:} there are situations in which the SR operation may be harmful to certain devices (e.g., in terms of fairness). Therefore, a given WLAN must be able to identify whether the SR operation must be disabled or not. This can be achieved by setting the OBSS/PD threshold to the default CCA/CS value. Alternatively, the SR operation can be disabled at STAs only, thus leading to an AP-only SR setting. In this regard, AP-AP interactions would be mostly targeted.
 	\end{itemize}
 	
 	Solving most of the aforementioned problems is not straightforward and requires an in-depth analysis to offer optimal or close-to-optimal solutions. While BSS color assignment may appear to be straightforward (e.g., through graph coloring techniques), defining PD thresholds is a very complex task that embraces many variables. In particular, inter-WLAN interactions have been shown in this paper to significantly vary depending on the chosen OBSS/PD. Since the performance of IEEE 802.11 WLANs is not linear with the sensitivity and the transmission power (due to the nature of CSMA/CA), the optimal PD threshold cannot be computed explicitly. 

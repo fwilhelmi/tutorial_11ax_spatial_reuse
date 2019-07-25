@@ -31,26 +31,30 @@ configuration_system_sim_1
 obss_pd_levels = -82:1:-62;
 
 % Generate wlans object according to the input file
-input_file = ['./Input/input_sim_1_1.csv'];
+input_file = ['Input/input_sim_1_1.csv'];
 wlans = generate_wlan_from_file(input_file, false, false, 1, [], []);
 
 % Compute the throughput of the scenario, for each OBSS_PD value
 avg_tpt = NaN*ones(1, size(obss_pd_levels, 2));
 tpt_wlan_a = NaN*ones(1, size(obss_pd_levels, 2));
 tpt_wlan_b = NaN*ones(1, size(obss_pd_levels, 2));
+sinr_wlan_a = NaN*ones(1, size(obss_pd_levels, 2));
+sinr_wlan_b = NaN*ones(1, size(obss_pd_levels, 2));
 for cca_ix = 1 : size(obss_pd_levels, 2)        
     disp('---------------------------')
     disp([' CCA = ' num2str(obss_pd_levels(cca_ix)) ' / Tx Power = ' num2str(20)])      
     % Set the OBSS_PD to be used by WLAN A
     wlans(1).non_srg_obss_pd = obss_pd_levels(cca_ix);
     % Call the SFCTMN framework
-    [throughput] = function_main_sfctmn(wlans);    
+    [throughput, average_sinr_per_wlan] = function_main_sfctmn(wlans);    
     disp(['Throughput WLAN A in scenario 1 (legacy): ' num2str(throughput(1))])
     disp(['Throughput WLAN B in scenario 1 (legacy): ' num2str(throughput(2))])
     % Store the results to be displayed later
     avg_tpt(cca_ix) = mean(throughput);
     tpt_wlan_a(cca_ix) = throughput(1);     
     tpt_wlan_b(cca_ix) = throughput(2); 
+    sinr_wlan_a(cca_ix) = average_sinr_per_wlan(1);     
+    sinr_wlan_b(cca_ix) = average_sinr_per_wlan(2); 
 end
 
 % Save the workspace
