@@ -483,7 +483,7 @@
 	
 	In order to improve the performance of WLANs, several amendments have been conceived along the past few years. Earlier IEEE 802.11 standards, e.g., 11n (2009) and 11ac (2013), defined the concepts of High Throughput (HT) and Very High Throughput (VHT) devices, respectively. These standards defined new functionalities to be included at that time, such as Channel Bonding (CB). More recently, the Task Group ax (TGax) was created to develop the IEEE 802.11ax-2020 (11ax) standard \cite{tgax2019draft}, which belongs to the group of standards for next-generation WLANs (e.g., IEEE 802.11aq, IEEE 802.11ad, IEEE 802.11ay). Through the definition of High Efficiency (HE) WLANs, the 11ax mainly aims to improve network efficiency in dense deployments. To that purpose, it includes several novel techniques, such as Orthogonal Frequency Division Multiple Access (OFDMA), Downlink/Uplink Multi-User Multiple-Input-Multiple-Output (DL/UL MU-MIMO), and the Spatial Reuse (SR) operation. We refer the reader to the works in \cite{bellalta2016ieee, afaqui2016ieee, qu2018survey, khorov2018tutorial} for an overview of the major novelties proposed in the IEEE 802.11ax standard.
 	
-	In this paper, we focus on the 11ax SR operation of the 11ax, which seeks to increase the number of parallel transmissions \cite{merlin2009methods}. In order to do so, the amendment introduces Carrier Sense Threshold (CST) adjustment for the detected OBSS transmissions\footnote{In the following, we will use intra-BSS or inter-BSS to refer to the transmissions within the same or different WLANs, respectively.}), which is performed through two different mechanisms: \emph{i)} Overlapping Basic Service Set (OBSS) Packet Detect (PD)-based SR, and \emph{ii)} Spatial Reuse Parameter (SRP)-based SR. However, the main difference between the two mechanisms lies in the degree of collaboration between WLANs for identifying SR-based opportunities (further details are provided in Sections \ref{section:enablers_sr_11ax} and \ref{section:operation_sr_11ax}).
+	In this paper, we focus on the 11ax SR operation of the 11ax, which seeks to increase the number of parallel transmissions \cite{merlin2009methods}. In order to do so, the amendment introduces Carrier Sense Threshold (CST) adjustment for the detected Overlapping Basic Service Set (OBSS) transmissions\footnote{In the following, we will use intra-BSS or inter-BSS to refer to the transmissions within the same or different WLANs, respectively.}), which is performed through two different mechanisms: \emph{i)} OBSS Packet Detect (PD)-based SR, and \emph{ii)} Spatial Reuse Parameter (SRP)-based SR. However, the main difference between the two mechanisms lies in the degree of collaboration between WLANs for identifying SR-based opportunities (further details are provided in Sections \ref{section:enablers_sr_11ax} and \ref{section:operation_sr_11ax}).
 	
 	In any case, adjusting the sensitivity constitutes the core of the SR operation, thus aiming to increase network efficiency without negatively impacting on the environment. For that purpose, Transmission Power Control (TPC) is considered to complement the SR operation by limiting the additional interference incurred during enhanced simultaneous transmissions. 
 	
@@ -506,7 +506,7 @@
 	
 	In spite of the apparent benefits of the SR operation, its actual potential is still unknown. In some situations, dynamic sensitivity and transmission power adjustment have been shown to significantly increase the network performance and to contribute to reducing the effects of the well-known hidden and exposed terminal problems \cite{zhou2005balancing}. However, in some other cases, these problems may be exacerbated as well \cite{wilhelmi2019potential}. Indeed, modifying either the CST or the transmit power can worsen the hidden/exposed terminal problems by generating flow starvation and asymmetries.
 	
-	Fig. \ref{fig:policies_sr} shows in an intuitive manner the effect of increasing and decreasing both the transmission power and the sensitivity in an OBSS. For instance, an increase in the sensitivity of a device may contribute to accessing the channel more often since the listening area is reduced. However, that can also lead to a higher number of collisions by hidden-node.
+	Fig. \ref{fig:policies_sr} shows in an intuitive manner the effect of increasing and decreasing both the transmission power and the sensitivity in an OBSS. For instance, an increase in the sensitivity of a device may contribute to accessing the channel more often since the listening area is reduced. However, that can also lead to a higher number of collisions by hidden-node. \textcolor{blue}{Moreover, using a more aggressive channel access policy may expose the receivers to a higher level of interference, thus requiring the utilization of more robust MCS.}
 	\begin{figure}[ht!]
 		\centering
 		\includegraphics[width=0.8\columnwidth]{policies_sr}
@@ -514,7 +514,7 @@
 		\label{fig:policies_sr}
 	\end{figure}
 	
-	Therefore, dealing with the spatial dimension may lead to severe implications and generate complex inter-WLAN interactions that are hard to predict beforehand. Indeed, the SR operation is one of the least studied features in next-generation WLANs. In fact, only a few works have delved into the 11ax SR operation and have assessed its potential. 
+	\textcolor{blue}{As illustrated}, dealing with the spatial dimension may lead to severe implications and generate complex inter-WLAN interactions that are hard to predict beforehand. Indeed, the SR operation is one of the least studied features in next-generation WLANs. In fact, only a few works have delved into the 11ax SR operation and have assessed its potential. 
 	
 	Firstly, the authors in \cite{mori2014performance} evaluated the benefits of using dynamic sensitivity thresholds for inter-BSS transmissions, given a fixed transmit power. Secondly, the work in \cite{qu2018survey} exhaustively surveyed the 11ax amendment, thus providing an overview of the first drafted SR operation. Moreover, it provided some results on applying SR in both indoor and outdoor scenarios. For the former, a high potential was shown with regards to throughput maximization. Similarly, the authors in \cite{shen2018research} introduced the contents of the 11ax SR as they are described in the amendment. In addition, they provided a performance evaluation based on the adjustment of the inter-BSS sensitivity threshold. Their results showed significant gains when applying SR, especially for dense scenarios. 
 
@@ -570,7 +570,7 @@
 	%% BSS COLORING
 	\subsection{BSS coloring}	
 	\label{section:bss_coloring}	
-	BSS coloring is a key enabler of the 11ax SR operation, whereby HE nodes can rapidly identify the source of a given transmission. Accordingly, WLANs can effectively determine whether the channel is occupied by a device of the same WLAN (intra-BSS transmission, same color) or from another one (inter-BSS transmission, different color). The BSS color, which is determined by the AP and is included in the preambles of Wi-Fi frames,\footnote{The \texttt{BSS color} field is included in the Physical Layer Convergence Procedure (PLCP) header. See Appendix \ref{section:frames} for further details.} is a value in the range of 1 to 63. It remains static until the AP considers to change it. In case of noticing a BSS color overlap (i.e., two different WLANs use the same color), a new color may be chosen by the affected APs. 
+	BSS coloring is a key enabler of the 11ax SR operation, whereby HE nodes can rapidly identify the source of a given transmission. \textcolor{blue}{In case that BSS coloring is adopted in an OBSS}, WLANs can effectively determine whether the channel is occupied by a device of the same WLAN (intra-BSS transmission, same color) or from another one (inter-BSS transmission, different color). The BSS color, which is determined by the AP and is included in the preambles of Wi-Fi frames,\footnote{The \texttt{BSS color} field is included in the Physical Layer Convergence Procedure (PLCP) header. See Appendix \ref{section:frames} for further details.} is a value in the range of 1 to 63. It remains static until the AP considers to change it. In case of noticing a BSS color overlap (i.e., two different WLANs use the same color), a new color may be chosen by the affected APs. 
 	
 	The method for selecting a new color is out of the scope of the 11ax amendment, but the advertising operation is actually defined. An HE AP may announce a new BSS color via the \texttt{BSS Color Change Announcement} element, which is carried in Beacon, Probe Response and (Re)Association Response frames. 
 	
@@ -596,14 +596,16 @@
 	% Two NAVs
 	\subsubsection{Two NAVs}
 	\label{section:two_navs}
-	The SR operation entails significant changes on the virtual carrier sensing procedure, which roughly consist in maintaining two different Network Allocation Vectors (NAVs), i.e., \emph{intra-BSS NAV} and \emph{inter-BSS NAV} for intra and inter-BSS frames, respectively. According to that, a given transmitter can decrease its backoff counter only if both NAV timers are set to zero. Otherwise, it must remain idle for at least the duration of the ongoing transmission(s),\footnote{The duration used for setting the NAV is indicated in the Duration field of a Physical layer Service Data Unit (PSDU).} which had previously activated the virtual carrier sensing. 
+	The SR operation entails significant changes on the virtual carrier sensing procedure, which roughly consist in maintaining two different Network Allocation Vectors (NAVs), i.e., \emph{intra-BSS NAV} and \emph{inter-BSS NAV} for intra and inter-BSS frames, respectively. According to that, a given transmitter can decrease its backoff counter only if both NAV timers are set to zero. Otherwise, it must remain idle for at least the duration of the ongoing transmission(s),\footnote{The duration used for setting the NAV is indicated in the Duration field of \textcolor{blue}{RTS/CTS frames or Physical layer Service Data Units (PSDU)}.} which had previously activated the virtual carrier sensing. 
 	
 	To showcase the utilization of two NAVs within the SR operation, we consider the scenario shown in Fig. \ref{fig:fig_5_a}, where packets are exchanged as illustrated in Fig. \ref{fig:fig_5_b}. In this scenario, $\text{WLAN}_A$ and $\text{WLAN}_B$ are considered to be within the same sensitivity area, provided that they both use the same CCA/CS value. In opposite, both WLANs can ignore each others' transmissions in case of applying SR based on the BSS Color.
 	
-	By following the Distributed Coordination Function (DCF) operation, $\text{AP}_A$ sends a Request-to-Send (RTS) frame to $\text{STA}_\text{A1}$, in order to start a downlink transmission to that node. Then, $\text{STA}_\text{A2}$ decodes the RTS frame and realizes that it was sent by a device belonging to the same WLAN (the BSS color field matches with its own). In other words, the RTS is classified as an intra-BSS frame. As a result, $\text{STA}_\text{A2}$ uses the default CCA/CS threshold and enters into a virtual carrier sense state by using the intra-BSS NAV. Note that a legacy device simply attempts to decode the RTS frame and decide whether the channel is occupied or not according to the legacy CCA/CS threshold. It is also worth mentioning that the NAV timer is updated in $\text{STA}_\text{A2}$ when $\text{STA}_\text{A1}$ sends the Clear-to-Send (CTS) frame to $\text{AP}_A$, because they are in the sensing range. 
+	By following the Distributed Coordination Function (DCF) operation, $\text{AP}_A$ sends a Request-to-Send (RTS) frame to $\text{STA}_\text{A1}$, in order to start a downlink transmission to that node. Then, $\text{STA}_\text{A2}$ decodes the RTS frame and realizes that it was sent by a device belonging to the same WLAN (the BSS color field matches with its own). In other words, the RTS is classified as an intra-BSS frame. As a result, $\text{STA}_\text{A2}$ uses the default CCA/CS threshold and enters into a virtual carrier sense state by using the intra-BSS NAV. Note that a legacy device simply attempts to decode the RTS frame and decide whether the channel is occupied or not according to the legacy CCA/CS threshold. It is also worth mentioning that the NAV timer is \textcolor{blue}{confirmed} in $\text{STA}_\text{A2}$ when $\text{STA}_\text{A1}$ sends the Clear-to-Send (CTS) frame to $\text{AP}_A$, because they are in the sensing range. 
 	
-	In parallel to those intra-BSS interactions, $\text{AP}_B$ starts its own downlink transmission to $\text{STA}_B$. The RTS that initiates such a transmission is also listened by $\text{STA}_\text{A2}$, which sets the inter-BSS NAV accordingly. In this occasion, the acknowledgments sent by $\text{STA}_B$ are ignored by $\text{STA}_\text{A2}$ due to the OBSS/PD threshold employed for inter-BSS transmissions. However, it has no impact on the modification of the inter-BSS NAV, which is properly set by the frames transmitted by $\text{AP}_B$. Finally, once both timers are over, $\text{STA}_\text{A2}$ can perform an uplink transmission, provided that it gains access to the channel.
+%	“A STA that used information from an RTS frame as the most recent basis to update its NAV setting is permitted to reset its NAV if no PHY-RXSTART.indication is detected from the PHY during a period with a duration of (2 × aSIFSTime) + (CTS_Time) + aPHY-RX-START-Delay + (2 × aSlotTime) starting at the PHY-RXEND.indication corresponding to the detection of the RTS frame.”
 	
+	In parallel to those intra-BSS interactions, $\text{AP}_B$ starts its own downlink transmission to $\text{STA}_B$. The RTS that initiates such a transmission is also listened by $\text{STA}_\text{A2}$, which sets the inter-BSS NAV accordingly. In this occasion, the acknowledgments sent by $\text{STA}_B$ are ignored by $\text{STA}_\text{A2}$ due to the OBSS/PD threshold employed for inter-BSS transmissions. However, it has no impact on the modification of the inter-BSS NAV, which is properly set by the frames transmitted by $\text{AP}_B$.\footnote{\textcolor{blue}{Note, as well, that the amendment also allows to reset the NAV if no CTS frame is received (i.e., a timeout occurs).}} Finally, once both timers are over, $\text{STA}_\text{A2}$ can perform an uplink transmission, provided that it gains access to the channel.
+		
 	The utility behind maintaining two NAVs becomes evident for dense deployments. On the one hand, the intra-BSS NAV allows protecting STAs from intra-BSS transmissions, thus reducing the effect of certain anomalies such as the hidden-terminal problem. On the other hand, as a novelty, the inter-BSS NAV allows mitigating OBSS interference, which contributes to increasing the number of parallel transmissions. 
 	
 	%%% SR groups
@@ -656,28 +658,28 @@
 		\label{fig:TB_transmission_example}
 	\end{figure}
 	
-	\begin{figure*}[ht!]
-		\centering
-		\begin{minipage}{\columnwidth}
-			\centering
-			\vbox{%
-			\vfill	\subfigure[Scenario]{\label{fig:fig_9a}\includegraphics[width=0.65\columnwidth]{fig_9a}}
-			\vfill}
-		\end{minipage}
-		\begin{minipage}{\columnwidth}
-			\centering
-			\vbox{%
-			\vfill
-			\subfigure[Packets exchange]{\label{fig:fig_9b}\includegraphics[width=\columnwidth]{fig_9b}}
-			\vfill}
-		\end{minipage}
-		\caption{NAV cancellation anomaly in TB UL transmissions. $\text{AP}_{B}$ is not in range of neither $\text{AP}_{A}$ nor $\text{STA}_{A}$, so it cancels the NAV in $\text{STA}_{B}$ through a CF-End frame before starting a TB transmission. As a result, a collision occurs at $\text{WLAN}_{A}$.}
-		\label{fig:two_navs_issues}
-	\end{figure*}
+%	\begin{figure*}[ht!]
+%		\centering
+%		\begin{minipage}{\columnwidth}
+%			\centering
+%			\vbox{%
+%			\vfill	\subfigure[Scenario]{\label{fig:fig_9a}\includegraphics[width=0.65\columnwidth]{fig_9a}}
+%			\vfill}
+%		\end{minipage}
+%		\begin{minipage}{\columnwidth}
+%			\centering
+%			\vbox{%
+%			\vfill
+%			\subfigure[Packets exchange]{\label{fig:fig_9b}\includegraphics[width=\columnwidth]{fig_9b}}
+%			\vfill}
+%		\end{minipage}
+%		\caption{NAV cancellation anomaly in TB UL transmissions. $\text{AP}_{B}$ is not in range of neither $\text{AP}_{A}$ nor $\text{STA}_{A}$, so it cancels the NAV in $\text{STA}_{B}$ through a CF-End frame before starting a TB transmission. As a result, a collision occurs at $\text{WLAN}_{A}$.}
+%		\label{fig:two_navs_issues}
+%	\end{figure*}
 	
-	In particular, the SR operation takes advantage of TB communications for detecting what is called SRP opportunities. By inspecting an inter-BSS TF packet, an HE STA implementing SRP-based SR can determine the maximum allowed interference by the inter-BSS AP scheduling the transmission. As a result, it can transmit during the TXOP at a regulated transmission power. Further details on this are provided in Section \ref{section:srp_based}.
+	In particular, the SR operation takes advantage of TB communications for detecting what are called SRP opportunities. By inspecting an inter-BSS TF packet, an HE STA implementing SRP-based SR can determine the maximum allowed interference by the inter-BSS AP scheduling the transmission. As a result, it can transmit during the TXOP at a regulated transmission power. Further details on this are provided in Section \ref{section:srp_based}.
 	
-	Finally, it is worth mentioning that, before scheduling a UL transmission, APs can cancel the virtual carrier sensing of their STAs by sending a Contention Free End (CF-End) control frame. This is done to reduce the idle periods provoked by inter-BSS transmissions, thus enhancing network efficiency. Nonetheless, some performance anomalies can occur. In particular, canceling the inter-BSS NAV of a STA may lead to collisions. To illustrate such an anomaly, let us refer to Fig.~\ref{fig:two_navs_issues}, where $\text{STA}_{B}$ sets an inter-BSS NAV when $\text{AP}_{A}$ schedules an UL transmission from $\text{STA}_{A}$. Since $\text{AP}_{B}$ is unaware of that transmission, it may send a CF-End frame to $\text{STA}_{B}$ to cancel the inter-BSS NAV before initiating another TB UL communication. As a consequence, a collision occurs in $\text{AP}_{A}$.
+	Finally, it is worth mentioning that, before scheduling a UL transmission, APs can cancel the virtual carrier sensing of their STAs by sending a Contention Free End (CF-End) control frame. This is done to reduce the idle periods provoked by inter-BSS transmissions, thus enhancing network efficiency. %Nonetheless, some performance anomalies can occur. In particular, canceling the inter-BSS NAV of a STA may lead to collisions. To illustrate such an anomaly, let us refer to Fig.~\ref{fig:two_navs_issues}, where $\text{STA}_{B}$ sets an inter-BSS NAV when $\text{AP}_{A}$ schedules an UL transmission from $\text{STA}_{A}$. Since $\text{AP}_{B}$ is unaware of that transmission, it may send a CF-End frame to $\text{STA}_{B}$ to cancel the inter-BSS NAV before initiating another TB UL communication. As a consequence, a collision occurs in $\text{AP}_{A}$.
 	
 	% ----------------------------------
 	% -
@@ -810,7 +812,7 @@
 	\label{eq:srp_input}
 	\nonumber
 	\end{equation}
-	where $\text{TX PWR}_\text{AP}$ is the normalized transmit power in dBm at the output of the antenna connector, and $\text{I}_\text{AP}^{\max}$ is a normalized value in dB that captures the maximum allowed interference at the transmission holder.\footnote{In particular, $\text{I}_\text{AP}^{\max}$ is computed as the ambient noise plus the interference power level observed at the AP immediately before the TB transmission, plus the SNR margin value (granting a 10\% PER). A safety margin (set by the AP) is also added not to exceed 5 dB.}
+	where $\text{TX PWR}_\text{AP}$ is the normalized transmit power in dBm at the output of the antenna connector, and $\text{I}_\text{AP}^{\max}$ is a normalized value in dB that captures the maximum allowed interference at the transmission holder.\footnote{\textcolor{blue}{In particular, $\text{I}_\text{AP}^{\max}$ is computed as the target RSSI indicated in the TF minus the minimum SNR granting a 10\% PER (based on the highest MCS to be used for transmitting the UL HE TB PPDU). A safety margin (set by the AP) is also included not to exceed 5 dB.}}
 	
 	\begin{table}[ht!]
 		\centering			
@@ -1397,6 +1399,8 @@
 	\section*{Acknowledgments}
 	
 	This  work  has  been  partially  supported  by  the  Spanish Ministry of Economy and Competitiveness under the Maria de Maeztu  Units  of  Excellence  Programme  (MDM-2015-0502), by PGC2018-099959-B-100 (MCIU/AEI/FEDER,UE), by the Catalan Government under SGR grant for research support (2017-SGR-11888), by SPOTS project (RTI2018-095438-A-I00) funded by the Spanish Ministry of Science, Innovation and Universities, and  by a Gift from the Cisco University Research Program (CG\#890107, Towards Deterministic Channel Access in High-Density WLANs) Fund, a corporate advised fund of Silicon Valley Community Foundation.
+	
+	\textcolor{blue}{The authors would like to thank Dr. Malcolm Smith and Dr. Adrian Garcia for their thorough reviews and insightful comments.}
 	
 	% Can use something like this to put references on a page
 	% by themselves when using endfloat and the captionsoff option.
