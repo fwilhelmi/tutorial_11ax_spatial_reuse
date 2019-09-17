@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.1)  27 JUL 2019 12:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.1)  16 SEP 2019 16:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1972,20 +1972,20 @@ red.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_5_b.pdf): PDF inclusio
 n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
 red.
->] <fig_4.pdf, id=533, 540.09782pt x 539.1342pt>
-File: fig_4.pdf Graphic file (type pdf)
- <use fig_4.pdf>
-Package pdftex.def Info: fig_4.pdf used on input line 622.
-(pdftex.def)             Requested size: 170.71652pt x 170.41225pt.
+>] <fig_6.pdf, id=533, 541.06137pt x 539.1342pt>
+File: fig_6.pdf Graphic file (type pdf)
+ <use fig_6.pdf>
+Package pdftex.def Info: fig_6.pdf used on input line 622.
+(pdftex.def)             Requested size: 170.71652pt x 170.10786pt.
 
-<fig_7.pdf, id=537, 553.10638pt x 460.6008pt>
+<fig_7.pdf, id=537, 536.96606pt x 460.6008pt>
 File: fig_7.pdf Graphic file (type pdf)
  <use fig_7.pdf>
 Package pdftex.def Info: fig_7.pdf used on input line 639.
-(pdftex.def)             Requested size: 252.0pt x 209.85481pt.
- [5 <./fig_4.pdf
+(pdftex.def)             Requested size: 252.0pt x 216.16614pt.
+ [5 <./fig_6.pdf
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_4.pdf): PDF inclusion:
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_6.pdf): PDF inclusion:
  invalid other resource which is no dict (key 'ProcSets', type <array>); ignore
 d.
 >] <fig_8.pdf, id=568, 515.04419pt x 370.5042pt>
@@ -2003,7 +2003,7 @@ d.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_8.pdf): PDF inclusion:
  invalid other resource which is no dict (key 'ProcSets', type <array>); ignore
 d.
->] <fig_10.pdf, id=648, 337.26pt x 224.7597pt>
+>] <fig_10.pdf, id=649, 337.26pt x 224.7597pt>
 File: fig_10.pdf Graphic file (type pdf)
  <use fig_10.pdf>
 Package pdftex.def Info: fig_10.pdf used on input line 707.
@@ -2013,7 +2013,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <6.2> not available
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <5.5> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 721.
 
-<fig_11.pdf, id=657, 430.48831pt x 524.92107pt>
+<fig_11.pdf, id=658, 430.48831pt x 524.92107pt>
 File: fig_11.pdf Graphic file (type pdf)
  <use fig_11.pdf>
 Package pdftex.def Info: fig_11.pdf used on input line 778.
@@ -2023,7 +2023,7 @@ Package pdftex.def Info: fig_11.pdf used on input line 778.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_10.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <fig_12.pdf, id=698, 445.665pt x 572.1375pt>
+>] <fig_12.pdf, id=699, 445.665pt x 572.1375pt>
 File: fig_12.pdf Graphic file (type pdf)
  <use fig_12.pdf>
 Package pdftex.def Info: fig_12.pdf used on input line 795.
@@ -2038,13 +2038,13 @@ ed.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_12.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <fig_13a.pdf, id=824, 463.7325pt x 402.54388pt>
+>] <fig_13a.pdf, id=825, 463.7325pt x 402.54388pt>
 File: fig_13a.pdf Graphic file (type pdf)
  <use fig_13a.pdf>
 Package pdftex.def Info: fig_13a.pdf used on input line 839.
 (pdftex.def)             Requested size: 163.79846pt x 142.18849pt.
 
-<fig_13b.pdf, id=825, 451.6875pt x 466.62328pt>
+<fig_13b.pdf, id=826, 451.6875pt x 466.62328pt>
 File: fig_13b.pdf Graphic file (type pdf)
  <use fig_13b.pdf>
 Package pdftex.def Info: fig_13b.pdf used on input line 846.
@@ -2059,7 +2059,7 @@ red.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_13b.pdf): PDF inclusio
 n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
 red.
->] [10] <fig_15a.pdf, id=941, 453.61469pt x 342.31888pt>
+>] [10] <fig_15a.pdf, id=942, 453.61469pt x 342.31888pt>
 File: fig_15a.pdf Graphic file (type pdf)
  <use fig_15a.pdf>
 Package pdftex.def Info: fig_15a.pdf used on input line 909.
@@ -2068,7 +2068,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 923.
 LaTeX Font Info:    Calculating math sizes for size <14> on input line 923.
 
-<fig_15c.pdf, id=942, 431.69278pt x 346.4142pt>
+<fig_15c.pdf, id=943, 431.69278pt x 346.4142pt>
 File: fig_15c.pdf Graphic file (type pdf)
  <use fig_15c.pdf>
 Package pdftex.def Info: fig_15c.pdf used on input line 925.
@@ -2078,7 +2078,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.21994> not available
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7.70004> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 945.
 
-<SIM_1_1.png, id=948, 603.2136pt x 484.81125pt>
+<SIM_1_1.png, id=949, 603.2136pt x 484.81125pt>
 File: SIM_1_1.png Graphic file (type png)
  <use SIM_1_1.png>
 Package pdftex.def Info: SIM_1_1.png used on input line 957.
@@ -2089,19 +2089,19 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_15a.pdf): PDF inclusio
 n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
 red.
 > <./fig_15c.pdf> <./SIM_1_1.png (PNG copy)>]
-<SIM_1_1b.png, id=1027, 608.2725pt x 482.7636pt>
+<SIM_1_1b.png, id=1028, 608.2725pt x 482.7636pt>
 File: SIM_1_1b.png Graphic file (type png)
  <use SIM_1_1b.png>
 Package pdftex.def Info: SIM_1_1b.png used on input line 994.
 (pdftex.def)             Requested size: 252.0pt x 200.0043pt.
- [12 <./SIM_1_1b.png (PNG copy)>] <fig_18.pdf, id=1041, 599.35919pt x 410.49359
+ [12 <./SIM_1_1b.png (PNG copy)>] <fig_18.pdf, id=1042, 599.35919pt x 410.49359
 pt>
 File: fig_18.pdf Graphic file (type pdf)
 
 <use fig_18.pdf>
 Package pdftex.def Info: fig_18.pdf used on input line 1019.
 (pdftex.def)             Requested size: 201.60077pt x 138.07523pt.
- <SIM_1_2.png, id=1042, 646.45515pt x 501.91515pt>
+ <SIM_1_2.png, id=1043, 646.45515pt x 501.91515pt>
 File: SIM_1_2.png Graphic file (type png)
 
 <use SIM_1_2.png>
@@ -2112,7 +2112,7 @@ Package pdftex.def Info: SIM_1_2.png used on input line 1026.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1091.
 
-<random_scenario.pdf, id=1048, 462.76888pt x 426.63388pt>
+<random_scenario.pdf, id=1049, 462.76888pt x 426.63388pt>
 File: random_scenario.pdf Graphic file (type pdf)
 
 <use random_scenario.pdf>
@@ -2128,7 +2128,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 Overfull \vbox (2.79977pt too high) detected at line 1187
  []
 
-<SIM_2_1.png, id=1114, 541.0614pt x 351.35265pt>
+<SIM_2_1.png, id=1116, 541.0614pt x 351.35265pt>
 File: SIM_2_1.png Graphic file (type png)
  <use SIM_2_1.png>
 Package pdftex.def Info: SIM_2_1.png used on input line 1201.
@@ -2139,13 +2139,13 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./random_scenario.pdf): PDF
 inclusion: invalid other resource which is no dict (key 'ProcSets', type <array
 >); ignored.
 > <./SIM_2_1.png (PNG copy)>]
-<SIM_2_2_2.png, id=1157, 501.91515pt x 351.35265pt>
+<SIM_2_2_2.png, id=1158, 501.91515pt x 351.35265pt>
 File: SIM_2_2_2.png Graphic file (type png)
  <use SIM_2_2_2.png>
 Package pdftex.def Info: SIM_2_2_2.png used on input line 1220.
 (pdftex.def)             Requested size: 252.0pt x 176.405pt.
 
-<SIM_2_2_1.png, id=1158, 501.91515pt x 351.35265pt>
+<SIM_2_2_1.png, id=1159, 501.91515pt x 351.35265pt>
 File: SIM_2_2_1.png Graphic file (type png)
  <use SIM_2_2_1.png>
 Package pdftex.def Info: SIM_2_2_1.png used on input line 1221.
@@ -2165,13 +2165,13 @@ Underfull \hbox (badness 5022) in paragraph at lines 1236--1237
 Underfull \vbox (badness 1910) has occurred while \output is active []
 
  [15 <./SIM_2_2_2.png (PNG copy)> <./SIM_2_2_1.png (PNG copy)>]
-<SIM_2_3_1.png, id=1174, 665.48625pt x 404.4711pt>
+<SIM_2_3_1.png, id=1175, 665.48625pt x 404.4711pt>
 File: SIM_2_3_1.png Graphic file (type png)
  <use SIM_2_3_1.png>
 Package pdftex.def Info: SIM_2_3_1.png used on input line 1246.
 (pdftex.def)             Requested size: 252.0pt x 153.1575pt.
 
-<SIM_2_3_2.png, id=1175, 668.4975pt x 402.5439pt>
+<SIM_2_3_2.png, id=1176, 668.4975pt x 402.5439pt>
 File: SIM_2_3_2.png Graphic file (type png)
  <use SIM_2_3_2.png>
 Package pdftex.def Info: SIM_2_3_2.png used on input line 1247.
@@ -2185,19 +2185,19 @@ Underfull \hbox (badness 1688) in paragraph at lines 1272--1273
 Underfull \vbox (badness 4543) has occurred while \output is active []
 
  [16 <./SIM_2_3_1.png (PNG copy)> <./SIM_2_3_2.png (PNG copy)>]
-<sr_and_beamforming.pdf, id=1189, 597.19106pt x 486.85887pt>
+<sr_and_beamforming.pdf, id=1190, 597.19106pt x 486.85887pt>
 File: sr_and_beamforming.pdf Graphic file (type pdf)
 
 <use sr_and_beamforming.pdf>
 Package pdftex.def Info: sr_and_beamforming.pdf used on input line 1285.
 (pdftex.def)             Requested size: 226.79846pt x 184.89685pt.
- <sr_and_tb.pdf, id=1192, 590.205pt x 490.71327pt>
+ <sr_and_tb.pdf, id=1193, 590.205pt x 490.71327pt>
 File: sr_and_tb.pdf Graphic file (type pdf)
 
 <use sr_and_tb.pdf>
 Package pdftex.def Info: sr_and_tb.pdf used on input line 1296.
 (pdftex.def)             Requested size: 201.60077pt x 167.61153pt.
- <sr_and_tb_b.pdf, id=1193, 460.6008pt x 397.485pt>
+ <sr_and_tb_b.pdf, id=1194, 460.6008pt x 397.485pt>
 File: sr_and_tb_b.pdf Graphic file (type pdf)
 
 <use sr_and_tb_b.pdf>
@@ -2218,7 +2218,7 @@ nored.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./sr_and_tb_b.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
->] <fig_25.pdf, id=1292, 614.295pt x 554.07pt>
+>] <fig_25.pdf, id=1293, 614.295pt x 554.07pt>
 File: fig_25.pdf Graphic file (type pdf)
  <use fig_25.pdf>
 Package pdftex.def Info: fig_25.pdf used on input line 1342.
@@ -2228,7 +2228,7 @@ Package pdftex.def Info: fig_25.pdf used on input line 1342.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_25.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] <fig_26.pdf, id=1330, 566.115pt x 193.6836pt>
+>] <fig_26.pdf, id=1331, 566.115pt x 193.6836pt>
 File: fig_26.pdf Graphic file (type pdf)
  <use fig_26.pdf>
 Package pdftex.def Info: fig_26.pdf used on input line 1374.
@@ -2248,7 +2248,7 @@ Underfull \hbox (badness 1939) in paragraph at lines 76--81
 []\T1/ptm/m/n/8 Imad Jamil, Lau-rent Car-iou, and Jean-François Hélard.  Novel
  []
 
-) <fwilhelmi.png, id=1364, 516.93124pt x 717.68124pt>
+) <fwilhelmi.png, id=1365, 516.93124pt x 717.68124pt>
 File: fwilhelmi.png Graphic file (type png)
  <use fwilhelmi.png>
 Package pdftex.def Info: fwilhelmi.png used on input line 1459.
@@ -2259,7 +2259,7 @@ File: fwilhelmi.png Graphic file (type png)
 Package pdftex.def Info: fwilhelmi.png used on input line 1459.
 (pdftex.def)             Requested size: 65.06584pt x 90.33414pt.
  [20 <./fwilhelmi.png>]
-<sbarrachina.png, id=1379, 450.68375pt x 513.92pt>
+<sbarrachina.png, id=1380, 450.68375pt x 513.92pt>
 File: sbarrachina.png Graphic file (type png)
  <use sbarrachina.png>
 Package pdftex.def Info: sbarrachina.png used on input line 1462.
@@ -2269,7 +2269,7 @@ File: sbarrachina.png Graphic file (type png)
 <use sbarrachina.png>
 Package pdftex.def Info: sbarrachina.png used on input line 1462.
 (pdftex.def)             Requested size: 72.26903pt x 82.40923pt.
- <cristina2.png, id=1382, 727.71875pt x 820.06375pt>
+ <cristina2.png, id=1383, 727.71875pt x 820.06375pt>
 File: cristina2.png Graphic file (type png)
 
 <use cristina2.png>
@@ -2280,7 +2280,7 @@ File: cristina2.png Graphic file (type png)
 Package pdftex.def Info: cristina2.png used on input line 1465.
 (pdftex.def)             Requested size: 72.26535pt x 81.43556pt.
 
-<selinis_pic.png, id=1385, 447.17062pt x 532.23843pt>
+<selinis_pic.png, id=1386, 447.17062pt x 532.23843pt>
 File: selinis_pic.png Graphic file (type png)
  <use selinis_pic.png>
 Package pdftex.def Info: selinis_pic.png used on input line 1468.
@@ -2290,7 +2290,7 @@ File: selinis_pic.png Graphic file (type png)
 <use selinis_pic.png>
 Package pdftex.def Info: selinis_pic.png used on input line 1468.
 (pdftex.def)             Requested size: 72.2652pt x 86.01262pt.
- <bbellalta.pdf, id=1388, 679.53876pt x 723.70375pt>
+ <bbellalta.pdf, id=1389, 679.53876pt x 723.70375pt>
 File: bbellalta.pdf Graphic file (type pdf)
 
 <use bbellalta.pdf>
@@ -2340,11 +2340,11 @@ texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive
 f-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on spatial_reuse_in_ieee80211ax_wlans.pdf (21 pages, 10837595 by
+Output written on spatial_reuse_in_ieee80211ax_wlans.pdf (21 pages, 10837623 by
 tes).
 PDF statistics:
- 1500 PDF objects out of 1728 (max. 8388607)
- 1073 compressed objects within 11 object streams
+ 1501 PDF objects out of 1728 (max. 8388607)
+ 1074 compressed objects within 11 object streams
  187 named destinations out of 1000 (max. 500000)
  586 words of extra memory for PDF output out of 10000 (max. 10000000)
 
