@@ -1,0 +1,41 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Spatial Reuse techniques in IEEE 802.11 WLANs}{}% 2
+\BOOKMARK [1][-]{section.3}{IEEE 802.11ax Spatial Reuse Operation: Building Blocks}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{BSS coloring}{section.3}% 4
+\BOOKMARK [3][-]{figure.caption.5}{BSS color-based channel access rules}{subsection.3.1}% 5
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Two NAVs}{subsection.3.1}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Spatial Reuse Groups}{section.3}% 7
+\BOOKMARK [3][-]{figure.caption.7}{SRG-based Channel Access Rules}{subsection.3.2}% 8
+\BOOKMARK [2][-]{subsection.3.3}{Triggered-based communications}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{IEEE 802.11ax Spatial Reuse Operation}{}% 10
+\BOOKMARK [2][-]{subsection.4.1}{OBSS/PD-based Spatial Reuse}{section.4}% 11
+\BOOKMARK [3][-]{subsubsection.4.1.1}{General constraints}{subsection.4.1}% 12
+\BOOKMARK [3][-]{subsubsection.4.1.2}{SRG-based constraints}{subsection.4.1}% 13
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Transmit power restriction}{subsection.4.1}% 14
+\BOOKMARK [3][-]{subsubsection.4.1.4}{Example of OBSS/PD Spatial Reuse}{subsection.4.1}% 15
+\BOOKMARK [2][-]{subsection.4.2}{SRP-based Spatial Reuse}{section.4}% 16
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Detecting SRP opportunities}{subsection.4.2}% 17
+\BOOKMARK [1][-]{section.5}{Model and Simulation of the 11ax Spatial Reuse Operation}{}% 18
+\BOOKMARK [2][-]{subsection.5.1}{Introduction to Continuous Time Markov Networks}{section.5}% 19
+\BOOKMARK [2][-]{subsection.5.2}{Simple inter-WLAN interactions}{section.5}% 20
+\BOOKMARK [2][-]{subsection.5.3}{Interactions among Spatial Reuse groups}{section.5}% 21
+\BOOKMARK [1][-]{section.6}{Performance Evaluation}{}% 22
+\BOOKMARK [2][-]{subsection.6.1}{Network Density}{section.6}% 23
+\BOOKMARK [2][-]{subsection.6.2}{Traffic load}{section.6}% 24
+\BOOKMARK [2][-]{subsection.6.3}{Joint Spatial Reuse Operation}{section.6}% 25
+\BOOKMARK [1][-]{section.7}{Ways Forward and Research Opportunities}{}% 26
+\BOOKMARK [2][-]{subsection.7.1}{Unexplored Areas within the Spatial Reuse Operation}{section.7}% 27
+\BOOKMARK [2][-]{subsection.7.2}{Integration of the Spatial Reuse Operation with other Techniques}{section.7}% 28
+\BOOKMARK [2][-]{subsection.7.3}{Artificial Intelligence to Address Spatial Reuse Optimization}{section.7}% 29
+\BOOKMARK [1][-]{section.8}{Conclusions}{}% 30
+\BOOKMARK [1][-]{section*.33}{Appendix A: IEEE 802.11ax Frames}{}% 31
+\BOOKMARK [2][-]{subsection.Appendix.A.1}{HE PPDU formats}{section*.33}% 32
+\BOOKMARK [2][-]{subsection.Appendix.A.2}{Management Fields Implied in the Spatial Reuse Operation}{section*.33}% 33
+\BOOKMARK [3][-]{subsubsection.Appendix.A.2.1}{Spatial Reuse Parameter Set element}{subsection.Appendix.A.2}% 34
+\BOOKMARK [1][-]{section*.37}{References}{}% 35
+\BOOKMARK [1][-]{IEEEbiography.0}{Biographies}{}% 36
+\BOOKMARK [2][-]{IEEEbiography.1}{Francesc Wilhelmi}{IEEEbiography.0}% 37
+\BOOKMARK [2][-]{IEEEbiography.2}{Sergio Barrachina-Mu\361oz}{IEEEbiography.0}% 38
+\BOOKMARK [2][-]{IEEEbiography.3}{Cristina Cano}{IEEEbiography.0}% 39
+\BOOKMARK [2][-]{IEEEbiography.4}{Ioannis Selinis}{IEEEbiography.0}% 40
+\BOOKMARK [2][-]{IEEEbiography.5}{Boris Bellalta}{IEEEbiography.0}% 41

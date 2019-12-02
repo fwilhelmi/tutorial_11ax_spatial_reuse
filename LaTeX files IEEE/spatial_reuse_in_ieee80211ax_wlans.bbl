@@ -1,0 +1,240 @@
+\begin{thebibliography}{10}
+
+\bibitem{tgax2019draft}
+{IEEE P802.11ax/D4.0}, January 2019.
+
+\bibitem{bellalta2016ieee}
+Boris Bellalta.
+\newblock {IEEE 802.11 ax: High-efficiency WLANs}.
+\newblock {\em IEEE Wireless Communications}, 23(1):38--46, 2016.
+
+\bibitem{afaqui2016ieee}
+M~Shahwaiz Afaqui, EG~Villegas, and EL~Aguilera.
+\newblock {IEEE 802.11 ax: Challenges and requirements for future high
+  efficiency WiFi}.
+\newblock {\em IEEE Wireless Communications}, 99:2--9, 2016.
+
+\bibitem{qu2018survey}
+Qiao Qu, Bo~Li, Mao Yang, Zhongjiang Yan, Annan Yang, Jian Yu, Ming Gan, Yunbo
+  Li, Xun Yang, Osama Aboul-Magd, et~al.
+\newblock {Survey and Performance Evaluation of the Upcoming Next Generation
+  WLAN Standard-IEEE 802.11 ax}.
+\newblock {\em arXiv preprint arXiv:1806.05908}, 2018.
+
+\bibitem{khorov2018tutorial}
+Evgeny Khorov, Anton Kiryanov, Andrey Lyakhov, and Giuseppe Bianchi.
+\newblock {A Tutorial on IEEE 802.11 ax High Efficiency WLANs}.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 2018.
+
+\bibitem{merlin2009methods}
+Simone Merlin and Santosh Abraham.
+\newblock Methods for improving medium reuse in ieee 802.11 networks.
+\newblock In {\em Consumer Communications and Networking Conference, 2009. CCNC
+  2009. 6th IEEE}, pages 1--5. IEEE, 2009.
+
+\bibitem{zhou2005balancing}
+Yihong Zhou and Scott~M Nettles.
+\newblock {Balancing the hidden and exposed node problems with power control in
+  CSMA/CA-based wireless networks}.
+\newblock In {\em Wireless Communications and Networking Conference, 2005
+  IEEE}, volume~2, pages 683--688. IEEE, 2005.
+
+\bibitem{wilhelmi2019potential}
+Francesc Wilhelmi, Sergio Barrachina-Mu{\~n}oz, Boris Bellalta, Cristina Cano,
+  Anders Jonsson, and Gergely Neu.
+\newblock Potential and pitfalls of multi-armed bandits for decentralized
+  spatial reuse in {WLANs}.
+\newblock {\em Journal of Network and Computer Applications}, 127:26--42, 2019.
+
+\bibitem{mori2014performance}
+Masahito Mori et~al.
+\newblock {Performance Analysis of BSS Color and DSC}.
+\newblock {\em Nov}, 3:11--14, 2014.
+
+\bibitem{shen2018research}
+Zhao Shen, Bo~Li, Mao Yang, Zhongjiang Yan, Xiaobo Li, and Yi~Jin.
+\newblock {Research and Performance Evaluation of Spatial Reuse Technology for
+  Next Generation WLAN}.
+\newblock In {\em International Wireless Internet Conference}, pages 41--51.
+  Springer, 2018.
+
+\bibitem{barrachina2019komondor}
+Sergio Barrachina-Mu{\~n}oz, Francesc Wilhelmi, Ioannis Selinis, and Boris
+  Bellalta.
+\newblock {Komondor: a Wireless Network Simulator for Next-Generation
+  High-Density WLANs}.
+\newblock In {\em 2019 Wireless Days (WD)}, pages 1--8. IEEE, 2019.
+
+\bibitem{li2011achieving}
+Wei Li, Yong Cui, Xiuzhen Cheng, Mznah~A Al-Rodhaan, and Abdullah Al-Dhelaan.
+\newblock {Achieving proportional fairness via AP power control in multi-rate
+  WLANs}.
+\newblock {\em IEEE Transactions on Wireless Communications},
+  10(11):3784--3792, 2011.
+
+\bibitem{jamil2016novel}
+Imad Jamil, Laurent Cariou, and Jean-Fran{\c{c}}ois H{\'e}lard.
+\newblock {Novel learning-based spatial reuse optimization in dense WLAN
+  deployments}.
+\newblock {\em EURASIP Journal on Wireless Communications and Networking},
+  2016(1):184, 2016.
+
+\bibitem{nakahira2014centralized}
+Toshiro Nakahira, Koichi Ishihara, Yusuke Asai, Yasushi Takatori, Riichi Kudo,
+  and Masato Mizoguchi.
+\newblock {Centralized control of carrier sense threshold and channel bandwidth
+  in high-density WLANs}.
+\newblock In {\em Microwave Conference (APMC), 2014 Asia-Pacific}, pages
+  570--572. IEEE, 2014.
+
+\bibitem{chevillat2005dynamic}
+Pierre Chevillat, Jens Jelitto, and Hong~Linh Truong.
+\newblock {Dynamic data rate and transmit power adjustment in IEEE 802.11
+  wireless LANs}.
+\newblock {\em International Journal of Wireless Information Networks},
+  12(3):123--145, 2005.
+
+\bibitem{tang2011improving}
+Suhua Tang, Akio Hasegawa, Riichiro Nagareda, Akito Kitaura, Tatsuo Shibata,
+  and Sadao Obana.
+\newblock {Improving throughput of wireless lans with transmit power control
+  and slotted channel access}.
+\newblock In {\em Personal Indoor and Mobile Radio Communications (PIMRC), 2011
+  IEEE 22nd International Symposium on}, pages 834--838. IEEE, 2011.
+
+\bibitem{chau2017effective}
+Chi-Kin Chau, Ivan~WH Ho, Zhenhui Situ, Soung~Chang Liew, and Jialiang Zhang.
+\newblock {Effective static and adaptive carrier sensing for dense wireless
+  CSMA networks}.
+\newblock {\em IEEE Transactions on Mobile Computing}, 16(2):355--366, 2017.
+
+\bibitem{wilhelmi2019collaborative}
+Francesc Wilhelmi, Cristina Cano, Gergely Neu, Boris Bellalta, Anders Jonsson,
+  and Sergio Barrachina-Mu{\~n}oz.
+\newblock Collaborative spatial reuse in wireless networks via selfish
+  multi-armed bandits.
+\newblock {\em Ad Hoc Networks}, 88:129--141, 2019.
+
+\bibitem{afaqui2015evaluation}
+M~Shahwaiz Afaqui, Eduard Garcia-Villegas, Elena Lopez-Aguilera, Graham Smith,
+  and Daniel Camps.
+\newblock {Evaluation of dynamic sensitivity control algorithm for IEEE 802.11
+  ax}.
+\newblock In {\em Wireless Communications and Networking Conference (WCNC),
+  2015 IEEE}, pages 1060--1065. IEEE, 2015.
+
+\bibitem{afaqui2016dynamic}
+M~Shahwaiz Afaqui, Eduard Garcia-Villegas, Elena Lopez-Aguilera, and Daniel
+  Camps-Mur.
+\newblock {Dynamic sensitivity control of access points for IEEE 802.11 ax}.
+\newblock In {\em Communications (ICC), 2016 IEEE International Conference on},
+  pages 1--7. IEEE, 2016.
+
+\bibitem{kulkarni2015taming}
+Parag Kulkarni and Fengming Cao.
+\newblock {Taming the densification challenge in next generation wireless LANs:
+  An investigation into the use of dynamic sensitivity control}.
+\newblock In {\em Wireless and Mobile Computing, Networking and Communications
+  (WiMob), 2015 IEEE 11th International Conference on}, pages 860--867. IEEE,
+  2015.
+
+\bibitem{selinis2016evaluation}
+Ioannis Selinis, Marcin Filo, Seiamak Vahid, Jonathan Rodriguez, and Rahim
+  Tafazolli.
+\newblock {Evaluation of the DSC algorithm and the BSS color scheme in dense
+  cellular-like {IEEE} 802.11 ax deployments}.
+\newblock In {\em Personal, Indoor, and Mobile Radio Communications (PIMRC),
+  2016 IEEE 27th Annual International Symposium on}, pages 1--7. IEEE, 2016.
+
+\bibitem{selinis2017exploiting}
+Ioannis Selinis, Konstantinos Katsaros, Seiamak Vahid, and Rahim Tafazolli.
+\newblock {Exploiting the Capture Effect on DSC and BSS Color in Dense IEEE
+  802.11 ax Deployments}.
+\newblock In {\em Proceedings of the Workshop on ns-3}, pages 47--54. ACM,
+  2017.
+
+\bibitem{selinis2018control}
+Ioannis Selinis, Konstantinos Katsaros, Seiamak Vahid, and Rahim Tafazolli.
+\newblock {Control OBSS/PD Sensitivity Threshold for IEEE 802.11 ax BSS Color}.
+\newblock In {\em 2018 IEEE 29th Annual International Symposium on Personal,
+  Indoor and Mobile Radio Communications (PIMRC)}, pages 1--7. IEEE, 2018.
+
+\bibitem{bellalta2019ap}
+Boris Bellalta and Katarzyna Kosek-Szott.
+\newblock {AP-initiated multi-user transmissions in IEEE 802.11 ax WLANs}.
+\newblock {\em Ad Hoc Networks}, 85:145--159, 2019.
+
+\bibitem{tgax2016obss_pd_evaluation}
+Matthew Fischer.
+\newblock {Simulation-based evaluation of OBSS PD based SR default parameters,
+  doc.: IEEE 802.11-16/1161r1}, September 2016.
+
+\bibitem{bellalta2014throughput}
+Boris Bellalta, Alessandro Zocca, Cristina Cano, Alessandro Checco, Jaume
+  Barcelo, and Alexey Vinel.
+\newblock {{Throughput analysis in CSMA/CA networks using continuous time
+  Markov networks: a tutorial}}.
+\newblock In {\em Wireless Networking for Moving Objects}, pages 115--133.
+  Springer, 2014.
+
+\bibitem{bellalta2017throughput}
+Boris Bellalta.
+\newblock {Throughput Analysis in High Density WLANs}.
+\newblock {\em IEEE Communications Letters}, 21(3):592--595, 2017.
+
+\bibitem{barrachina2019dynamic}
+Sergio Barrachina-Mu{\~n}oz, Francesc Wilhelmi, and Boris Bellalta.
+\newblock {Dynamic Channel Bonding in Spatially Distributed High-Density
+  WLANs}.
+\newblock {\em IEEE Transactions on Mobile Computing}, 2019.
+
+\bibitem{barrachina2019overlap}
+Sergio Barrachina-Mu{\~n}oz, Francesc Wilhelmi, and Boris Bellalta.
+\newblock {To overlap or not to overlap: Enabling channel bonding in
+  high-density WLANs}.
+\newblock {\em Computer Networks}, 152:40--53, 2019.
+
+\bibitem{wilhelmi2019sfctm_spatial_reuse}
+Francesc Wilhelmi and Sergio Barrachina-Mu\~noz.
+\newblock {IEEE 802.11ax Single-Channel Spatial Reuse in the Spatial Flexible
+  Continuous Time Markov Network (11axSR-SFCTMN)}.
+\newblock \url{https://github.com/sergiobarra/SFCTMN}, 2019.
+
+\bibitem{pathloss11ax}
+{S. Merlin, et al.}
+\newblock {TGax Simulation Scenarios}.
+\newblock {doc. IEEE 802.11-14/0980r16, 2016.}
+
+\bibitem{bankov2018ofdma}
+Dmitry Bankov, Andre Didenko, Evgeny Khorov, and Andrey Lyakhov.
+\newblock {OFDMA Uplink Scheduling in IEEE 802.11 ax Networks}.
+\newblock In {\em 2018 IEEE International Conference on Communications (ICC)},
+  pages 1--6. IEEE, 2018.
+
+\bibitem{dovelos2018optimal}
+Konstantinos Dovelos and Boris Bellalta.
+\newblock {Optimal Resource Allocation in IEEE 802.11ax Uplink OFDMA with
+  Scheduled Access}.
+\newblock {\em arXiv preprint arXiv:1811.00957}, 2019.
+
+\bibitem{liao2016mu}
+Ruizhi Liao, Boris Bellalta, Miquel Oliver, and Zhisheng Niu.
+\newblock {MU-MIMO MAC protocols for wireless local area networks: A survey}.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 18(1):162--183, 2016.
+
+\bibitem{nurchis2019target}
+Maddalena Nurchis and Boris Bellalta.
+\newblock {Target wake time: scheduled access in IEEE 802.11 ax WLANs}.
+\newblock {\em IEEE Wireless Communications}, 26(2):142--150, 2019.
+
+\bibitem{smith2015dynamic}
+G~Smith.
+\newblock {Dynamic sensitivity control-v2}.
+\newblock {\em IEEE}, 802:802--11, 2015.
+
+\bibitem{rhode2017whitepaper}
+Lisa Ward.
+\newblock {1MA222: IEEE 802.11ax Technology Introduction}.
+\newblock {\em Rhode \& Schwarz. White paper 10.2016 - 1MA222\_0e}, 2017.
+
+\end{thebibliography}
