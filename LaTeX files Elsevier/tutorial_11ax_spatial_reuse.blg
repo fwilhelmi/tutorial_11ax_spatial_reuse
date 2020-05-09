@@ -1,0 +1,70 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: tutorial_11ax_spatial_reuse.aux
+The style file: abbrvnat.bst
+Database file #1: bib.bib
+I was expecting a `,' or a `}'---line 121 of file bib.bib
+ :  author="Jamil, Imad and Cariou, Laurent and H{\'e}lard, Jean-Fran"
+ :                                                                    \c"c"ois",
+I'm skipping whatever remains of this entry
+Unbalanced braces---line 307 of file bib.bib
+ :  author="Bankov, Dmitry and Didenko, Andre and Khorov, Evgeny and Lyakhov, Andrey
+ :                                                                                  }",
+I'm skipping whatever remains of this entry
+Illegal end of database file---line 348 of file bib.bib
+ : }
+ :  
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "shen2018research"
+Warning--I didn't find a database entry for "wilhelmi2019sfctm_spatial_reuse"
+Warning--to sort, need author or key in bankov2018ofdma
+Warning--empty author in bankov2018ofdma
+Warning--empty booktitle in bankov2018ofdma
+Warning--empty year in bankov2018ofdma
+Warning--empty year in bankov2018ofdma
+Warning--empty journal in jamil2016novel
+Warning--empty year in jamil2016novel
+Warning--empty year in jamil2016novel
+Warning--empty year in pathloss11ax
+You've used 36 entries,
+            2773 wiz_defined-function locations,
+            775 strings with 11452 characters,
+and the built_in function-call counts, 18859 in all, are:
+= -- 1690
+> -- 1178
+< -- 27
++ -- 403
+- -- 363
+* -- 1537
+:= -- 2820
+add.period$ -- 113
+call.type$ -- 36
+change.case$ -- 226
+chr.to.int$ -- 32
+cite$ -- 82
+duplicate$ -- 847
+empty$ -- 1487
+format.name$ -- 411
+if$ -- 4010
+int.to.chr$ -- 5
+int.to.str$ -- 1
+missing$ -- 33
+newline$ -- 181
+num.names$ -- 140
+pop$ -- 501
+preamble$ -- 1
+purify$ -- 191
+quote$ -- 0
+skip$ -- 660
+stack$ -- 0
+substring$ -- 694
+swap$ -- 142
+text.length$ -- 13
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 396
+warning$ -- 9
+while$ -- 169
+width$ -- 0
+write$ -- 461
+(There were 3 error messages)
