@@ -162,7 +162,7 @@
 
 \renewcommand{\appendix}[1][]{\par%
     % v1.6 keep hyperref's identifiers unique
-    \def\theHsection{Appendix.A}%
+    \def\theHsection{Appendix}%
     % v1.6 adjust hyperref's string name for the section
     \xdef\Hy@chapapp{appendix}%
     \setcounter{section}{0}%
@@ -170,7 +170,7 @@
     \setcounter{subsubsection}{0}%
     \setcounter{paragraph}{0}%
     \def\thesection{}%
-    \def\thesectiondis{APPENDIX.}% 
+    \def\thesectiondis{APPENDIX}% 
     \def\thesubsection{\Alph{subsection}}%
     \refstepcounter{section}% update the \ref counter
 %    \@ifmtarg{#1}{\@IEEEappendixsavesection*{{\color{accessblue}\sectionAfont APPENDIX}}%
@@ -186,7 +186,7 @@
 
 \def\appendices{\par%
     % v1.6 keep hyperref's identifiers unique
-    \def\theHsection{Appendix.\Alph{section}}%
+    \def\theHsection{Appendix \Alph{section}}%
     % v1.6 adjust hyperref's string name for the section
     \xdef\Hy@chapapp{appendix}%
     \setcounter{section}{-1}% we want \refstepcounter to use section 0
@@ -194,7 +194,7 @@
     \setcounter{subsubsection}{0}%
     \setcounter{paragraph}{0}%
     \def\thesection{\Alph{section}}%
-    \def\thesectiondis{APPENDIX \Alph{section}}.%
+    \def\thesectiondis{APPENDIX \Alph{section}:}.%
     \refstepcounter{section}% update the \ref counter
     \setcounter{section}{0}% NEXT \section will be the FIRST appendix
     % redefine \section command for appendices
@@ -354,8 +354,8 @@
 \def\headName{}
 \def\@pubid{}
 \def\markboth#1#2{\def\leftmark{#1}\def\rightmark{#2}}
-\def\thevol{4}
-\def\theyear{2016}
+\def\thevol{xxx}
+\def\theyear{2020}
 \def\vol#1{\gdef\thevol{#1}}
 \def\year#1{\gdef\theyear{#1}}
 \def\pubid#1{\gdef\@pubid{#1}}
@@ -404,14 +404,14 @@
     \def\@oddhead{\parbox[t]{\textwidth}{\mbox{}\\[-6.3mm]\mbox{}\nheaderfont\color{accessblue}\headName\hfill\headerlogo{\raisebox{-2pt}{\,}}\color{black}\vspace*{-1.5mm}\par\hrulefill}}
     \def\@evenhead{\parbox[t]{\textwidth}{\mbox{}\\[-6.3mm]\mbox{}\headerlogo\hfill\nheaderfont\color{accessblue}\headName{\raisebox{-2pt}{\,}}\color{black}\vspace*{-1.5mm}\par\hrulefill}}
      \def\@oddfoot{\raisebox{3pt}{%%
-       \hbox to 0pc{\hbox to \textwidth{{\footervolfont VOLUME\ \thevol, 2016}\hfill\mbox{}}}%
+       \hbox to 0pc{\hbox to \textwidth{{\footervolfont VOLUME\ \thevol, \theyear}\hfill\mbox{}}}%
        \hbox to 0pc{\hbox to \textwidth{\mbox{}\hfill{\footervolfont\@pubid}\hfill\mbox{}}}%
        \hbox to 0pc{\hbox to \textwidth{\mbox{}\hfill{\footerpagefont\thepage}}}%\hspace*{1.8pc}
        }}
      \def\@evenfoot{\raisebox{3pt}{%
        \hbox to 0pc{\hbox to \textwidth{{\footerpagefont\thepage}\hfill}\mbox{}}\hspace*{1.8pc}%\hspace*{1.8pc}
        \hspace*{-1.8pc}\hbox to 0pc{\hbox to \textwidth{\mbox{}\hfill{\footervolfont\@pubid}\hfill\mbox{}}}%
-       \hbox to 0pc{\hbox to \textwidth{\mbox{}\hfill{\footervolfont VOLUME\ \thevol, 2016}}}\hspace*{1.8pc}% [updated here]
+       \hbox to 0pc{\hbox to \textwidth{\mbox{}\hfill{\footervolfont VOLUME\ \thevol, \theyear}}}\hspace*{1.8pc}% [updated here]
      }}
   }
 % normal page
@@ -419,12 +419,12 @@
      \def\@oddhead{\parbox[t]{\textwidth}{\mbox{}\\[-6.3mm]{\raisebox{-2pt}{\headerfont\rightmark}}\hfill\headerlogoall\mbox{}\vspace*{-1.5mm}\par\hrulefill}}
      \def\@evenhead{\parbox[t]{\textwidth}{\mbox{}\\[-6.3mm]\mbox{}\headerlogoall\hfill{\raisebox{-2pt}{\headerfont\leftmark}}\vspace*{-1.5mm}\par\hrulefill}}
      \def\@oddfoot{\raisebox{8pt}{%
-       \hbox to 0pc{\hbox to \textwidth{{\footervolfont VOLUME\ \thevol, 2016}\hfill\mbox{}}}%
+       \hbox to 0pc{\hbox to \textwidth{{\footervolfont VOLUME\ \thevol, \theyear}\hfill\mbox{}}}%
        \hbox to 0pc{\hbox to \textwidth{\mbox{}\hfill{\footerpagefont\thepage}}}%\hspace*{1.8pc}
        }}
      \def\@evenfoot{\raisebox{8pt}{%
        \hbox to 0pc{\hbox to \textwidth{{\footerpagefont\thepage}\mbox{}\hfill}}\hspace*{1.8pc}%\hspace*{-1.8pc}
-       \hspace*{-1.8pc}\hbox to 0pc{\hbox to \textwidth{\mbox{}\hfill{\footervolfont VOLUME\ \thevol, 2016}}}\hspace*{1.8pc}% [updated here]
+       \hspace*{-1.8pc}\hbox to 0pc{\hbox to \textwidth{\mbox{}\hfill{\footervolfont VOLUME\ \thevol, \theyear}}}\hspace*{1.8pc}% [updated here]
      }}
   }
 \fi
