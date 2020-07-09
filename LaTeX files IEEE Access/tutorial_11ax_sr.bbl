@@ -33,6 +33,27 @@ Simone Merlin and Santosh Abraham.
 \newblock In {\em Consumer Communications and Networking Conference, 2009. CCNC
   2009. 6th IEEE}, pages 1--5. IEEE, 2009.
 
+\bibitem{guo2003spatial}
+Xingang Guo, Sumit Roy, and W~Steven Conner.
+\newblock Spatial reuse in wireless ad-hoc networks.
+\newblock In {\em 2003 IEEE 58th Vehicular Technology Conference. VTC 2003-Fall
+  (IEEE Cat. No. 03CH37484)}, volume~3, pages 1437--1442. IEEE, 2003.
+
+\bibitem{zhu2004adapting}
+Jing Zhu, Xingang Guo, L~Lily~Yang, W~Steven~Conner, Sumit Roy, and Mousumi~M
+  Hazra.
+\newblock Adapting physical carrier sensing to maximize spatial reuse in 802.11
+  mesh networks.
+\newblock {\em wireless communications and mobile computing}, 4(8):933--946,
+  2004.
+
+\bibitem{mhatre2007interference}
+Vivek~P Mhatre, Konstantina Papagiannaki, and Francois Baccelli.
+\newblock Interference mitigation through power control in high density 802.11
+  wlans.
+\newblock In {\em IEEE INFOCOM 2007-26th IEEE International Conference on
+  Computer Communications}, pages 535--543. IEEE, 2007.
+
 \bibitem{zhou2005balancing}
 Yihong Zhou and Scott~M Nettles.
 \newblock {Balancing the hidden and exposed node problems with power control in
@@ -158,6 +179,28 @@ Ioannis Selinis, Konstantinos Katsaros, Seiamak Vahid, and Rahim Tafazolli.
 \newblock In {\em 2018 IEEE 29th Annual International Symposium on Personal,
   Indoor and Mobile Radio Communications (PIMRC)}, pages 1--7. IEEE, 2018.
 
+\bibitem{ropitault2018evaluation}
+Tanguy Ropitault.
+\newblock Evaluation of rtot algorithm: A first implementation of
+  obss\_pd-based sr method for ieee 802.11 ax.
+\newblock In {\em 2018 15th IEEE Annual Consumer Communications \& Networking
+  Conference (CCNC)}, pages 1--7. IEEE, 2018.
+
+\bibitem{lee2007experimental}
+Jeongkeun Lee, Wonho Kim, Sung-Ju Lee, Daehyung Jo, Jiho Ryu, Taekyoung Kwon,
+  and Yanghee Choi.
+\newblock An experimental study on the capture effect in 802.11 a networks.
+\newblock In {\em Proceedings of the second ACM international workshop on
+  Wireless network testbeds, experimental evaluation and characterization},
+  pages 19--26, 2007.
+
+\bibitem{durvy2007modeling}
+Mathilde Durvy, Olivier Dousse, and Patrick Thiran.
+\newblock Modeling the 802.11 protocol under different capture and sensing
+  capabilities.
+\newblock In {\em IEEE INFOCOM 2007-26th IEEE International Conference on
+  Computer Communications}, pages 2356--2360. IEEE, 2007.
+
 \bibitem{bellalta2019ap}
 Boris Bellalta and Katarzyna Kosek-Szott.
 \newblock {AP-initiated multi-user transmissions in IEEE 802.11 ax WLANs}.
@@ -167,6 +210,50 @@ Boris Bellalta and Katarzyna Kosek-Szott.
 Matthew Fischer.
 \newblock {Simulation-based evaluation of OBSS PD based SR default parameters,
   doc.: IEEE 802.11-16/1161r1}, September 2016.
+
+\bibitem{malone2007verification}
+David Malone, Ian Dangerfield, and Doug Leith.
+\newblock Verification of common 802.11 mac model assumptions.
+\newblock In {\em International Conference on Passive and Active Network
+  Measurement}, pages 63--72. Springer, 2007.
+
+\bibitem{huang2010validity}
+Kaidi Huang, Ken~R Duffy, and David Malone.
+\newblock On the validity of ieee 802.11 mac modeling hypotheses.
+\newblock {\em IEEE/ACM Transactions on Networking}, 18(6):1935--1948, 2010.
+
+\bibitem{gupta2000capacity}
+Piyush Gupta and Panganmala~R Kumar.
+\newblock The capacity of wireless networks.
+\newblock {\em IEEE Transactions on information theory}, 46(2):388--404, 2000.
+
+\bibitem{elsawy2016modeling}
+Hesham ElSawy, Ahmed Sultan-Salem, Mohamed-Slim Alouini, and Moe~Z Win.
+\newblock Modeling and analysis of cellular networks using stochastic geometry:
+  A tutorial.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 19(1):167--203, 2016.
+
+\bibitem{zhao2016stochastic}
+Xiaoguang Zhao, Xiangming Wen, Tao Lei, Zhaoming Lu, and Biao Zhang.
+\newblock On stochastic geometry analysis of dense wlan with dynamic carrier
+  sense threshold and rate control.
+\newblock In {\em 2016 19th International Symposium on Wireless Personal
+  Multimedia Communications (WPMC)}, pages 211--216. IEEE, 2016.
+
+\bibitem{zhang2015stochastic}
+Zhiwei Zhang, Yunzhou Li, Kaizhi Huang, and Chen Liang.
+\newblock On stochastic geometry modeling of wlan capacity with dynamic
+  sensitive control.
+\newblock In {\em 2015 13th International Symposium on Modeling and
+  Optimization in Mobile, Ad Hoc, and Wireless Networks (WiOpt)}, pages 78--83.
+  IEEE, 2015.
+
+\bibitem{iwata2019stochastic}
+Motoki Iwata, Koji Yamamoto, Bo~Yin, Takayuki Nishio, Masahiro Morikura, and
+  Hirantha Abeysekera.
+\newblock Stochastic geometry analysis of individual carrier sense threshold
+  adaptation in ieee 802.11 ax wlans.
+\newblock {\em IEEE Access}, 7:161916--161927, 2019.
 
 \bibitem{bellalta2014throughput}
 Boris Bellalta, Alessandro Zocca, Cristina Cano, Alessandro Checco, Jaume
@@ -180,6 +267,17 @@ Boris Bellalta, Alessandro Zocca, Cristina Cano, Alessandro Checco, Jaume
 Boris Bellalta.
 \newblock {Throughput Analysis in High Density WLANs}.
 \newblock {\em IEEE Communications Letters}, 21(3):592--595, 2017.
+
+\bibitem{bellalta2016throughput}
+Boris Bellalta.
+\newblock Throughput analysis in high density wlans.
+\newblock {\em IEEE Communications Letters}, 21(3):592--595, 2016.
+
+\bibitem{michaloliakos2016performance}
+Antonios Michaloliakos, Ryan Rogalin, Yonglong Zhang, Konstantinos Psounis, and
+  Giuseppe Caire.
+\newblock Performance modeling of next-generation wifi networks.
+\newblock {\em Computer Networks}, 105:150--165, 2016.
 
 \bibitem{barrachina2019dynamic}
 Sergio Barrachina-Mu{\~n}oz, Francesc Wilhelmi, and Boris Bellalta.
@@ -230,6 +328,34 @@ Maddalena Nurchis and Boris Bellalta.
 G~Smith.
 \newblock Dynamic sensitivity control-v2.
 \newblock {\em IEEE}, 802:802--11, 2015.
+
+\bibitem{long2007non}
+Chengnian Long, Qian Zhang, Bo~Li, Huilong Yang, and Xinping Guan.
+\newblock Non-cooperative power control for wireless ad hoc networks with
+  repeated games.
+\newblock {\em IEEE Journal on Selected Areas in Communications},
+  25(6):1101--1112, 2007.
+
+\bibitem{naddafzadeh2010distributed}
+Ghasem Naddafzadeh-Shirazi, Peng-Yong Kong, and Chen-Khong Tham.
+\newblock Distributed reinforcement learning frameworks for cooperative
+  retransmission in wireless networks.
+\newblock {\em IEEE Transactions on Vehicular Technology}, 59(8):4157--4162,
+  2010.
+
+\bibitem{zhou2011reinforcement}
+Pan Zhou, Yusun Chang, and John~A Copeland.
+\newblock Reinforcement learning for repeated power control game in cognitive
+  radio networks.
+\newblock {\em IEEE Journal on Selected Areas in Communications}, 30(1):54--69,
+  2011.
+
+\bibitem{ghadimi2017reinforcement}
+Euhanna Ghadimi, Francesco~Davide Calabrese, Gunnar Peters, and Pablo Soldati.
+\newblock A reinforcement learning approach to power control and rate
+  adaptation in cellular networks.
+\newblock In {\em 2017 IEEE International Conference on Communications (ICC)},
+  pages 1--7. IEEE, 2017.
 
 \bibitem{rhode2017whitepaper}
 Lisa Ward.

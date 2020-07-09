@@ -1,0 +1,1977 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.1)  7 JUL 2020 07:28
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**tutorial_11ax_sr.tex
+(./tutorial_11ax_sr.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(./ieeeaccess.cls (./IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpdimenC=\dimen104
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmpcountC=\count81
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 503.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen105
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen106
+\CLASSINFOnormalsizeunitybaselineskip=\dimen107
+\IEEEnormaljot=\dimen108
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+\IEEEquantizedlength=\dimen109
+\IEEEquantizedlengthdiff=\dimen110
+\IEEEquantizedtextheightdiff=\dimen111
+\IEEEilabelindentA=\dimen112
+\IEEEilabelindentB=\dimen113
+\IEEEilabelindent=\dimen114
+\IEEEelabelindent=\dimen115
+\IEEEdlabelindent=\dimen116
+\IEEElabelindent=\dimen117
+\IEEEiednormlabelsep=\dimen118
+\IEEEiedmathlabelsep=\dimen119
+\IEEEiedtopsep=\skip41
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@IEEEsubequation=\count86
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count87
+\c@table=\count88
+\@IEEEeqnnumcols=\count89
+\@IEEEeqncolcnt=\count90
+\@IEEEsubeqnnumrollback=\count91
+\@IEEEquantizeheightA=\dimen120
+\@IEEEquantizeheightB=\dimen121
+\@IEEEquantizeheightC=\dimen122
+\@IEEEquantizeprevdepth=\dimen123
+\@IEEEquantizemultiple=\count92
+\@IEEEquantizeboxA=\box26
+\@IEEEtmpitemindent=\dimen124
+\IEEEPARstartletwidth=\dimen125
+\c@IEEEbiography=\count93
+\@IEEEtranrubishbin=\box27
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count94
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)){/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file t1-times.map): cannot open f
+ont map file
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file t1-formata.map): cannot open
+ font map file
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file t1-giovannistd.map): cannot 
+open font map file
+\@draftversionrule=\dimen126
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 144.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count95
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/spotcolor/spotcolor.sty
+Package: spotcolor 2006/11/15 v1.2 Package for adding Spot Color support to pdf
+LaTeX.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+)
+\thecolorprofile=\count96
+\thecolor=\count97
+)
+\PANTONE=\toks17
+Package color Info: Redefining color black on input line 135.
+\figbox=\box28
+\titlewidth=\skip44
+\abstractwidth=\skip45
+\c@addrCtr=\count98
+\abstractbox=\box29
+\indexbox=\box30
+\absht=\dimen127
+\kwdht=\dimen128
+\@tempcntc=\count99
+\titlepgskip=\skip46
+\maketitlebox=\box31
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen129
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen130
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count100
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count101
+\leftroot@=\count102
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count103
+\DOTSCASE@=\count104
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box32
+\strutbox@=\box33
+\big@size=\dimen131
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count105
+\c@MaxMatrixCols=\count106
+\dotsspace@=\muskip10
+\c@parentequation=\count107
+\dspbrk@lvl=\count108
+\tag@help=\toks19
+\row@=\count109
+\column@=\count110
+\maxfields@=\count111
+\andhelp@=\toks20
+\eqnshift@=\dimen132
+\alignsep@=\dimen133
+\tagshift@=\dimen134
+\tagwidth@=\dimen135
+\totwidth@=\dimen136
+\lineht@=\dimen137
+\@envbody=\toks21
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@ALC@unique=\count112
+\c@ALC@line=\count113
+\c@ALC@rem=\count114
+\c@ALC@depth=\count115
+\ALC@tlm=\skip50
+\algorithmicindent=\skip51
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen138
+\Gin@req@width=\dimen139
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen140
+\epsfysize=\dimen141
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip52
+\subfigcapskip=\skip53
+\subfigcaptopadj=\dimen142
+\subfigbottomskip=\skip54
+\subfigcapmargin=\dimen143
+\subfiglabelskip=\skip55
+\c@subfigure=\count116
+\c@lofdepth=\count117
+\c@subtable=\count118
+\c@lotdepth=\count119
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2016/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip56
+\subfig@bottom=\skip57
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen144
+\Hy@linkcounter=\count120
+\Hy@pagecounter=\count121
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count122
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4446.
+Package hyperref Info: Link nesting OFF on input line 4451.
+Package hyperref Info: Hyper index ON on input line 4454.
+Package hyperref Info: Plain pages OFF on input line 4461.
+Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4691.
+\c@Hy@tempcnt=\count123
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5044.
+\XeTeXLinkMargin=\dimen145
+\Fld@menulength=\count124
+\Field@Width=\dimen146
+\Fld@charsize=\dimen147
+Package hyperref Info: Hyper figures OFF on input line 6298.
+Package hyperref Info: Link nesting OFF on input line 6303.
+Package hyperref Info: Hyper index ON on input line 6306.
+Package hyperref Info: backreferencing OFF on input line 6313.
+Package hyperref Info: Link coloring OFF on input line 6318.
+Package hyperref Info: Link coloring with OCG OFF on input line 6323.
+Package hyperref Info: PDF/A mode OFF on input line 6328.
+LaTeX Info: Redefining \ref on input line 6368.
+LaTeX Info: Redefining \pageref on input line 6372.
+\Hy@abspage=\count125
+\c@Item=\count126
+\c@Hfootnote=\count127
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+\Fld@listcount=\count128
+\c@bookmark@seq@number=\count129
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip58
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen148
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen149
+\extrarowheight=\dimen150
+\NC@list=\toks23
+\extratabsurround=\skip59
+\backup@length=\skip60
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen151
+\c@nlinenum=\count130
+\TeXr@lab=\toks24
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks25
+\SOUL@lasttoken=\toks26
+\SOUL@cmds=\toks27
+\SOUL@buffer=\toks28
+\SOUL@token=\toks29
+\SOUL@spaceskip=\skip61
+\SOUL@ttwidth=\dimen152
+\SOUL@uldp=\dimen153
+\SOUL@ulht=\dimen154
+)
+(./tutorial_11ax_sr.aux)
+\openout1 = `tutorial_11ax_sr.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 20.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+
+-- Lines per column: 56 (exact).
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 20.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+
+LaTeX Font Warning: Font shape `T1/ptm/n/n' undefined
+(Font)              using `T1/ptm/m/n' instead on input line 20.
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count131
+\scratchdimen=\dimen155
+\scratchbox=\box34
+\nofMPsegments=\count132
+\nofMParguments=\count133
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count134
+\MPscratchDim=\dimen156
+\MPnumerator=\count135
+\makeMPintoPDFobject=\count136
+\everyMPtoPDFconversion=\toks31
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box35
+Package hyperref Info: Link coloring OFF on input line 20.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count137
+)
+LaTeX Info: Redefining \ref on input line 20.
+LaTeX Info: Redefining \pageref on input line 20.
+LaTeX Info: Redefining \nameref on input line 20.
+
+(./tutorial_11ax_sr.out) (./tutorial_11ax_sr.out)
+\@outlinefile=\write3
+\openout3 = `tutorial_11ax_sr.out'.
+
+
+<bullet.png, id=158, 12.045pt x 35.38219pt>
+File: bullet.png Graphic file (type png)
+ <use bullet.png>
+Package pdftex.def Info: bullet.png used on input line 39.
+(pdftex.def)             Requested size: 5.0pt x 14.6871pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 39.
+
+LaTeX Font Info:    Try loading font information for T1+phv on input line 39.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+
+LaTeX Font Warning: Font shape `T1/phv/n/n' undefined
+(Font)              using `T1/phv/m/n' instead on input line 39.
+
+File: bullet.png Graphic file (type png)
+<use bullet.png>
+Package pdftex.def Info: bullet.png used on input line 43.
+(pdftex.def)             Requested size: 5.0pt x 14.6871pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 43.
+
+
+Package xcolor Warning: Incompatible color definition on input line 50.
+
+LaTeX Font Info:    Calculating math sizes for size <9.9> on input line 50.
+LaTeX Font Info:    Try loading font information for U+msa on input line 50.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 50.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Calculating math sizes for size <6.6> on input line 50.
+
+Overfull \hbox (9.2679pt too wide) in paragraph at lines 50--50
+[]  
+ []
+
+
+Overfull \hbox (9.2679pt too wide) in paragraph at lines 50--50
+[]  
+ []
+
+
+Package xcolor Warning: Incompatible color definition on input line 51.
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 54.
+
+Underfull \vbox (badness 3954) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package xcolor Warning: Incompatible color definition on input line 59.
+
+<Logo.png, id=166, 206.27063pt x 53.44969pt>
+File: Logo.png Graphic file (type png)
+ <use Logo.png>
+Package pdftex.def Info: Logo.png used on input line 59.
+(pdftex.def)             Requested size: 91.32pt x 23.66309pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[1
+
+
+ <./Logo.png> <./bullet.png>]
+<sr_summary.pdf, id=182, 356.29109pt x 276.07141pt>
+File: sr_summary.pdf Graphic file (type pdf)
+ <use sr_summary.pdf>
+Package pdftex.def Info: sr_summary.pdf used on input line 64.
+(pdftex.def)             Requested size: 242.67355pt x 188.03778pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 65.
+
+
+Package xcolor Warning: Incompatible color definition on input line 65.
+
+<fig_1.pdf, id=184, 406.3983pt x 371.46779pt>
+File: fig_1.pdf Graphic file (type pdf)
+ <use fig_1.pdf>
+Package pdftex.def Info: fig_1.pdf used on input line 72.
+(pdftex.def)             Requested size: 166.6911pt x 152.36513pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+
+Package xcolor Warning: Incompatible color definition on input line 73.
+
+<policies_sr.pdf, id=191, 197.7789pt x 154.6578pt>
+File: policies_sr.pdf Graphic file (type pdf)
+ <use policies_sr.pdf>
+Package pdftex.def Info: policies_sr.pdf used on input line 82.
+(pdftex.def)             Requested size: 194.13957pt x 151.82082pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 83.
+
+
+Package xcolor Warning: Incompatible color definition on input line 83.
+
+<notaglineLogo.png, id=195, 169.38281pt x 42.91031pt>
+File: notaglineLogo.png Graphic file (type png)
+ <use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png used on input line 88.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[2 <./notaglineLogo.png> <./sr_summary.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./sr_summary.pdf): PDF inclu
+sion: invalid other resource which is no dict (key 'ProcSets', type <array>); i
+gnored.
+> <./fig_1.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_1.pdf): PDF inclusion:
+ invalid other resource which is no dict (key 'ProcSets', type <array>); ignore
+d.
+> <./policies_sr.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./policies_sr.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>]
+
+Package xcolor Warning: Incompatible color definition on input line 106.
+
+
+Package xcolor Warning: Incompatible color definition on input line 124.
+
+
+Package xcolor Warning: Incompatible color definition on input line 129.
+
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 131.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+
+LaTeX Font Warning: Font shape `T1/pcr/n/n' undefined
+(Font)              using `T1/pcr/m/n' instead on input line 131.
+
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png used on input line 132.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[3]
+
+Package xcolor Warning: Incompatible color definition on input line 134.
+
+<fig_2a.pdf, id=368, 452.6511pt x 348.34138pt>
+File: fig_2a.pdf Graphic file (type pdf)
+ <use fig_2a.pdf>
+Package pdftex.def Info: fig_2a.pdf used on input line 142.
+(pdftex.def)             Requested size: 169.87074pt x 130.72337pt.
+
+<fig_4b.pdf, id=369, 344.2461pt x 215.84639pt>
+File: fig_4b.pdf Graphic file (type pdf)
+ <use fig_4b.pdf>
+Package pdftex.def Info: fig_4b.pdf used on input line 144.
+(pdftex.def)             Requested size: 194.13957pt x 121.72946pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 145.
+
+
+Package xcolor Warning: Incompatible color definition on input line 145.
+
+<fig_5_a.pdf, id=370, 441.56969pt x 432.65637pt>
+File: fig_5_a.pdf Graphic file (type pdf)
+ <use fig_5_a.pdf>
+Package pdftex.def Info: fig_5_a.pdf used on input line 151.
+(pdftex.def)             Requested size: 169.87074pt x 166.43788pt.
+
+<fig_5_b.pdf, id=371, 581.2917pt x 492.88138pt>
+File: fig_5_b.pdf Graphic file (type pdf)
+ <use fig_5_b.pdf>
+Package pdftex.def Info: fig_5_b.pdf used on input line 153.
+(pdftex.def)             Requested size: 242.67355pt x 205.76031pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 154.
+
+
+Package xcolor Warning: Incompatible color definition on input line 154.
+
+
+Package xcolor Warning: Incompatible color definition on input line 157.
+
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png used on input line 162.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[4 <./fig_2a.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_2a.pdf): PDF inclusion
+: invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
+ed.
+> <./fig_4b.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_4b.pdf): PDF inclusion
+: invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
+ed.
+>]
+
+Package xcolor Warning: Incompatible color definition on input line 166.
+
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png used on input line 173.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[5 <./fig_5_a.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_5_a.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+> <./fig_5_b.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_5_b.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>]
+Underfull \hbox (badness 2409) in paragraph at lines 173--174
+[]\T1/ptm/n/n/10 For VHT PP-DUs, same SRG is in-di-cated if the
+ []
+
+<fig_6.pdf, id=561, 490.71327pt x 502.99919pt>
+File: fig_6.pdf Graphic file (type pdf)
+ <use fig_6.pdf>
+Package pdftex.def Info: fig_6.pdf used on input line 181.
+(pdftex.def)             Requested size: 169.87074pt x 174.12589pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 182.
+
+
+Package xcolor Warning: Incompatible color definition on input line 182.
+
+
+Package xcolor Warning: Incompatible color definition on input line 187.
+
+<fig_7.pdf, id=564, 546.12032pt x 462.76888pt>
+File: fig_7.pdf Graphic file (type pdf)
+ <use fig_7.pdf>
+Package pdftex.def Info: fig_7.pdf used on input line 195.
+(pdftex.def)             Requested size: 242.67355pt x 205.63844pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 196.
+
+
+Package xcolor Warning: Incompatible color definition on input line 196.
+
+
+Package xcolor Warning: Incompatible color definition on input line 201.
+
+<fig_8.pdf, id=567, 496.9767pt x 358.4592pt>
+File: fig_8.pdf Graphic file (type pdf)
+ <use fig_8.pdf>
+Package pdftex.def Info: fig_8.pdf used on input line 207.
+(pdftex.def)             Requested size: 230.53912pt x 166.28252pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 208.
+
+
+Package xcolor Warning: Incompatible color definition on input line 208.
+
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png used on input line 213.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[6 <./fig_6.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_6.pdf): PDF inclusion:
+ invalid other resource which is no dict (key 'ProcSets', type <array>); ignore
+d.
+> <./fig_7.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_7.pdf): PDF inclusion:
+ invalid other resource which is no dict (key 'ProcSets', type <array>); ignore
+d.
+>]
+
+Package xcolor Warning: Incompatible color definition on input line 220.
+
+
+Package xcolor Warning: Incompatible color definition on input line 225.
+
+
+Package xcolor Warning: Incompatible color definition on input line 230.
+
+
+Underfull \vbox (badness 2980) has occurred while \output is active []
+
+
+<fig_10.pdf, id=647, 337.26pt x 224.7597pt>
+File: fig_10.pdf Graphic file (type pdf)
+ <use fig_10.pdf>
+Package pdftex.def Info: fig_10.pdf used on input line 237.
+(pdftex.def)             Requested size: 194.13957pt x 129.38329pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 238.
+
+
+Package xcolor Warning: Incompatible color definition on input line 238.
+
+
+Package xcolor Warning: Incompatible color definition on input line 252.
+
+
+Package xcolor Warning: Incompatible color definition on input line 257.
+
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png used on input line 262.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[7 <./fig_8.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_8.pdf): PDF inclusion:
+ invalid other resource which is no dict (key 'ProcSets', type <array>); ignore
+d.
+> <./fig_10.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_10.pdf): PDF inclusion
+: invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
+ed.
+>]
+
+Package xcolor Warning: Incompatible color definition on input line 275.
+
+
+Package xcolor Warning: Incompatible color definition on input line 288.
+
+
+Package xcolor Warning: Incompatible color definition on input line 295.
+
+
+Underfull \hbox (badness 4391) in paragraph at lines 303--304
+[]\T1/ptm/n/n/10 The pre-vi-ous equa-tion holds for $[][] \OMS/cmsy/m/n/10 ^^U
+ []
+
+
+Package xcolor Warning: Incompatible color definition on input line 305.
+
+<fig_11.pdf, id=726, 502.99919pt x 457.71pt>
+File: fig_11.pdf Graphic file (type pdf)
+ <use fig_11.pdf>
+Package pdftex.def Info: fig_11.pdf used on input line 310.
+(pdftex.def)             Requested size: 182.00516pt x 165.62054pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 311.
+
+
+Package xcolor Warning: Incompatible color definition on input line 311.
+
+<fig_12.pdf, id=731, 439.6425pt x 575.2692pt>
+File: fig_12.pdf Graphic file (type pdf)
+ <use fig_12.pdf>
+Package pdftex.def Info: fig_12.pdf used on input line 325.
+(pdftex.def)             Requested size: 242.67355pt x 317.53139pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 326.
+
+
+Package xcolor Warning: Incompatible color definition on input line 326.
+
+
+Package xcolor Warning: Incompatible color definition on input line 331.
+
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png used on input line 334.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[8 <./fig_11.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_11.pdf): PDF inclusion
+: invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
+ed.
+>]
+
+Package xcolor Warning: Incompatible color definition on input line 355.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+<fig_13a.pdf, id=789, 463.7325pt x 402.54388pt>
+File: fig_13a.pdf Graphic file (type pdf)
+ <use fig_13a.pdf>
+Package pdftex.def Info: fig_13a.pdf used on input line 363.
+(pdftex.def)             Requested size: 145.6056pt x 126.39659pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 364.
+
+
+Package xcolor Warning: Incompatible color definition on input line 364.
+
+<fig_13b.pdf, id=790, 448.5558pt x 472.64577pt>
+File: fig_13b.pdf Graphic file (type pdf)
+ <use fig_13b.pdf>
+Package pdftex.def Info: fig_13b.pdf used on input line 370.
+(pdftex.def)             Requested size: 230.53912pt x 242.92126pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 371.
+
+
+Package xcolor Warning: Incompatible color definition on input line 371.
+
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png used on input line 381.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[9 <./fig_12.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_12.pdf): PDF inclusion
+: invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
+ed.
+> <./fig_13a.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_13a.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>]
+
+Package xcolor Warning: Incompatible color definition on input line 388.
+
+<fig_15a.pdf, id=955, 519.86218pt x 289.08pt>
+File: fig_15a.pdf Graphic file (type pdf)
+ <use fig_15a.pdf>
+Package pdftex.def Info: fig_15a.pdf used on input line 406.
+(pdftex.def)             Requested size: 151.53807pt x 84.26332pt.
+
+<ctmn_toy_scenario_1a.png, id=956, 755.4624pt x 483.7272pt>
+File: ctmn_toy_scenario_1a.png Graphic file (type png)
+
+<use ctmn_toy_scenario_1a.png>
+Package pdftex.def Info: ctmn_toy_scenario_1a.png used on input line 409.
+(pdftex.def)             Requested size: 151.53807pt x 97.03159pt.
+ <fig_15c.pdf, id=958, 540.09782pt x 289.08pt>
+File: fig_15c.pdf Graphic file (type pdf)
+
+<use fig_15c.pdf>
+Package pdftex.def Info: fig_15c.pdf used on input line 411.
+(pdftex.def)             Requested size: 151.53807pt x 81.10504pt.
+ <ctmn_toy_scenario_1b.png, id=959, 792.0792pt x 529.98pt>
+File: ctmn_toy_scenario_1b.png Graphic file (type png)
+
+<use ctmn_toy_scenario_1b.png>
+Package pdftex.def Info: ctmn_toy_scenario_1b.png used on input line 414.
+(pdftex.def)             Requested size: 151.53807pt x 101.3927pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 415.
+
+
+Package xcolor Warning: Incompatible color definition on input line 415.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package xcolor Warning: Incompatible color definition on input line 419.
+
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png used on input line 421.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[10 <./fig_13b.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_13b.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>]
+Underfull \hbox (badness 1953) in paragraph at lines 435--437
+\T1/ptm/n/n/10 of sen-si-tiv-ity lev-els that each BSS can ap-ply (de-fault
+ []
+
+
+Package xcolor Warning: Incompatible color definition on input line 439.
+
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png used on input line 446.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[11 <./fig_15a.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_15a.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+> <./ctmn_toy_scenario_1a.png> <./fig_15c.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_15c.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+> <./ctmn_toy_scenario_1b.png>]
+<SIM_1_1.png, id=1166, 603.2136pt x 484.81125pt>
+File: SIM_1_1.png Graphic file (type png)
+ <use SIM_1_1.png>
+Package pdftex.def Info: SIM_1_1.png used on input line 451.
+(pdftex.def)             Requested size: 242.67355pt x 195.0381pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 452.
+
+
+Package xcolor Warning: Incompatible color definition on input line 452.
+
+<ctmn_toy_scenario_1c.png, id=1168, 668.7384pt x 542.025pt>
+File: ctmn_toy_scenario_1c.png Graphic file (type png)
+
+<use ctmn_toy_scenario_1c.png>
+Package pdftex.def Info: ctmn_toy_scenario_1c.png used on input line 464.
+(pdftex.def)             Requested size: 218.40471pt x 177.01617pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 465.
+
+
+Package xcolor Warning: Incompatible color definition on input line 465.
+
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png used on input line 478.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[12 <./SIM_1_1.png (PNG copy)> <./ctmn_toy_scenario_1c.png>]
+<SIM_1_1b.png, id=1179, 608.2725pt x 482.7636pt>
+File: SIM_1_1b.png Graphic file (type png)
+ <use SIM_1_1b.png>
+Package pdftex.def Info: SIM_1_1b.png used on input line 481.
+(pdftex.def)             Requested size: 242.67355pt x 192.60109pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 482.
+
+
+Package xcolor Warning: Incompatible color definition on input line 482.
+
+
+Package xcolor Warning: Incompatible color definition on input line 487.
+
+<fig_18.pdf, id=1183, 486.85887pt x 516.00781pt>
+File: fig_18.pdf Graphic file (type pdf)
+ <use fig_18.pdf>
+Package pdftex.def Info: fig_18.pdf used on input line 495.
+(pdftex.def)             Requested size: 145.6056pt x 154.32324pt.
+
+<SIM_1_2.png, id=1184, 646.45515pt x 501.91515pt>
+File: SIM_1_2.png Graphic file (type png)
+ <use SIM_1_2.png>
+Package pdftex.def Info: SIM_1_2.png used on input line 497.
+(pdftex.def)             Requested size: 242.67355pt x 188.40918pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 498.
+
+
+Package xcolor Warning: Incompatible color definition on input line 498.
+
+<ctmn_scenario_2.png, id=1185, 526.1256pt x 542.025pt>
+File: ctmn_scenario_2.png Graphic file (type png)
+
+<use ctmn_scenario_2.png>
+Package pdftex.def Info: ctmn_scenario_2.png used on input line 504.
+(pdftex.def)             Requested size: 218.40471pt x 225.0106pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 505.
+
+
+Package xcolor Warning: Incompatible color definition on input line 505.
+
+
+Package xcolor Warning: Incompatible color definition on input line 522.
+
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png used on input line 525.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[13 <./SIM_1_1b.png (PNG copy)> <./fig_18.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_18.pdf): PDF inclusion
+: invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
+ed.
+> <./SIM_1_2.png (PNG copy)>]
+
+Package xcolor Warning: Incompatible color definition on input line 532.
+
+<random_scenario.pdf, id=1229, 463.7325pt x 428.5611pt>
+File: random_scenario.pdf Graphic file (type pdf)
+
+<use random_scenario.pdf>
+Package pdftex.def Info: random_scenario.pdf used on input line 539.
+(pdftex.def)             Requested size: 194.13957pt x 179.41896pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 541.
+
+
+Package xcolor Warning: Incompatible color definition on input line 541.
+
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 611.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Overfull \vbox (1.99973pt too high) detected at line 611
+ []
+
+
+Package xcolor Warning: Incompatible color definition on input line 612.
+
+
+Package xcolor Warning: Incompatible color definition on input line 617.
+
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png used on input line 620.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[14 <./ctmn_scenario_2.png> <./random_scenario.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./random_scenario.pdf): PDF 
+inclusion: invalid other resource which is no dict (key 'ProcSets', type <array
+>); ignored.
+>] <SIM_2_1.png, id=1301, 541.0614pt x 351.35265pt>
+File: SIM_2_1.png Graphic file (type png)
+ <use SIM_2_1.png>
+Package pdftex.def Info: SIM_2_1.png used on input line 625.
+(pdftex.def)             Requested size: 218.40471pt x 141.82524pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 626.
+
+
+Package xcolor Warning: Incompatible color definition on input line 626.
+
+
+Package xcolor Warning: Incompatible color definition on input line 635.
+
+<SIM_2_2_2.png, id=1305, 501.91515pt x 351.35265pt>
+File: SIM_2_2_2.png Graphic file (type png)
+ <use SIM_2_2_2.png>
+Package pdftex.def Info: SIM_2_2_2.png used on input line 644.
+(pdftex.def)             Requested size: 218.40471pt x 152.89076pt.
+
+<SIM_2_2_1.png, id=1306, 501.91515pt x 351.35265pt>
+File: SIM_2_2_1.png Graphic file (type png)
+ <use SIM_2_2_1.png>
+Package pdftex.def Info: SIM_2_2_1.png used on input line 645.
+(pdftex.def)             Requested size: 218.40471pt x 152.89076pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 646.
+
+
+Package xcolor Warning: Incompatible color definition on input line 646.
+
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png used on input line 651.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[15 <./SIM_2_1.png (PNG copy)> <./SIM_2_2_2.png (PNG copy)> <./SIM_2_2_1.png (P
+NG copy)>]
+
+Package xcolor Warning: Incompatible color definition on input line 653.
+
+<SIM_2_3_1.png, id=1317, 665.48625pt x 404.4711pt>
+File: SIM_2_3_1.png Graphic file (type png)
+ <use SIM_2_3_1.png>
+Package pdftex.def Info: SIM_2_3_1.png used on input line 658.
+(pdftex.def)             Requested size: 242.67355pt x 147.49185pt.
+
+<SIM_2_3_2.png, id=1318, 668.4975pt x 402.5439pt>
+File: SIM_2_3_2.png Graphic file (type png)
+ <use SIM_2_3_2.png>
+Package pdftex.def Info: SIM_2_3_2.png used on input line 659.
+(pdftex.def)             Requested size: 242.67355pt x 146.12572pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 660.
+
+
+Package xcolor Warning: Incompatible color definition on input line 660.
+
+
+Package xcolor Warning: Incompatible color definition on input line 681.
+
+
+Underfull \vbox (badness 2884) has occurred while \output is active []
+
+
+
+Package xcolor Warning: Incompatible color definition on input line 685.
+
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png used on input line 696.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[16]
+
+Package xcolor Warning: Incompatible color definition on input line 697.
+
+<sr_and_beamforming.pdf, id=1339, 502.99919pt x 487.8225pt>
+File: sr_and_beamforming.pdf Graphic file (type pdf)
+
+<use sr_and_beamforming.pdf>
+Package pdftex.def Info: sr_and_beamforming.pdf used on input line 706.
+(pdftex.def)             Requested size: 194.13957pt x 188.2849pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 707.
+
+
+Package xcolor Warning: Incompatible color definition on input line 707.
+
+<sr_and_tb.pdf, id=1340, 563.2242pt x 492.88138pt>
+File: sr_and_tb.pdf Graphic file (type pdf)
+ <use sr_and_tb.pdf>
+Package pdftex.def Info: sr_and_tb.pdf used on input line 713.
+(pdftex.def)             Requested size: 194.13957pt x 169.89384pt.
+
+<sr_and_tb_b.pdf, id=1341, 433.62pt x 406.3983pt>
+File: sr_and_tb_b.pdf Graphic file (type pdf)
+ <use sr_and_tb_b.pdf>
+Package pdftex.def Info: sr_and_tb_b.pdf used on input line 714.
+(pdftex.def)             Requested size: 242.67355pt x 227.43887pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 715.
+
+
+Package xcolor Warning: Incompatible color definition on input line 715.
+
+
+Underfull \vbox (badness 3503) has occurred while \output is active []
+
+File: notaglineLogo.png Graphic file (type png)
+
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png used on input line 722.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[17 <./SIM_2_3_1.png (PNG copy)> <./SIM_2_3_2.png (PNG copy)> <./sr_and_beamfor
+ming.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./sr_and_beamforming.pdf): P
+DF inclusion: invalid other resource which is no dict (key 'ProcSets', type <ar
+ray>); ignored.
+>]
+
+Package xcolor Warning: Incompatible color definition on input line 723.
+
+
+Package xcolor Warning: Incompatible color definition on input line 733.
+
+
+Underfull \vbox (badness 2253) has occurred while \output is active []
+
+File: notaglineLogo.png Graphic file (type png)
+
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png used on input line 740.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[18 <./sr_and_tb.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./sr_and_tb.pdf): PDF inclus
+ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
+nored.
+> <./sr_and_tb_b.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./sr_and_tb_b.pdf): PDF incl
+usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
+ignored.
+>]
+
+Package xcolor Warning: Incompatible color definition on input line 744.
+
+
+Package xcolor Warning: Incompatible color definition on input line 749.
+
+<fig_25.pdf, id=1491, 614.295pt x 554.07pt>
+File: fig_25.pdf Graphic file (type pdf)
+ <use fig_25.pdf>
+Package pdftex.def Info: fig_25.pdf used on input line 761.
+(pdftex.def)             Requested size: 242.67355pt x 218.88484pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 762.
+
+
+Package xcolor Warning: Incompatible color definition on input line 762.
+
+
+Package xcolor Warning: Incompatible color definition on input line 775.
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 776--777
+\T1/ptm/n/n/10 Some op-er-a-tions aux-il-iary to SR are en-abled by con-
+ []
+
+
+Underfull \hbox (badness 3343) in paragraph at lines 776--777
+\T1/ptm/n/n/10 trol frames, which are Bea-con, Probe Re-sponse, and
+ []
+
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png used on input line 784.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[19 <./fig_25.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_25.pdf): PDF inclusion
+: invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
+ed.
+>]
+
+Package xcolor Warning: Incompatible color definition on input line 786.
+
+<fig_26.pdf, id=1529, 566.115pt x 193.6836pt>
+File: fig_26.pdf Graphic file (type pdf)
+ <use fig_26.pdf>
+Package pdftex.def Info: fig_26.pdf used on input line 792.
+(pdftex.def)             Requested size: 242.67355pt x 83.02519pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 793.
+
+
+Package xcolor Warning: Incompatible color definition on input line 793.
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 805--806
+[]\T1/ptm/n/n/10 Non-SRG OBSS/PD SR Dis-al-lowed: in-di-cates
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 808--809
+\T1/ptm/n/n/10 di-cates whether non-AP STAs as-so-ci-ated with
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 808--809
+\T1/ptm/n/n/10 the AP that trans-mit-ted this el-e-ment may set
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 808--809
+\T1/ptm/n/n/10 PSR_AND_NON-SRG-OBSS-PD_PROHIBITED
+ []
+
+
+Package xcolor Warning: Incompatible color definition on input line 817.
+
+(./tutorial_11ax_sr.bbl
+
+Package xcolor Warning: Incompatible color definition on input line 1.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/n/it' undefined
+(Font)              using `T1/ptm/n/n' instead on input line 10.
+
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png used on input line 130.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[20 <./fig_26.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_26.pdf): PDF inclusion
+: invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
+ed.
+>]
+LaTeX Font Info:    Calculating math sizes for size <7.61> on input line 298.
+)
+File: notaglineLogo.png Graphic file (type png)
+ <use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png used on input line 823.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[21]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 823.
+
+<photo_fwilhelmi_1200_1200.jpg, id=1573, 1204.5pt x 1204.5pt>
+File: photo_fwilhelmi_1200_1200.jpg Graphic file (type jpg)
+
+<use photo_fwilhelmi_1200_1200.jpg>
+Package pdftex.def Info: photo_fwilhelmi_1200_1200.jpg used on input line 823.
+(pdftex.def)             Requested size: 72.26688pt x 72.26688pt.
+File: photo_fwilhelmi_1200_1200.jpg Graphic file (type jpg)
+ <use photo_fwilhelmi_1200_1200.jpg>
+Package pdftex.def Info: photo_fwilhelmi_1200_1200.jpg used on input line 823.
+(pdftex.def)             Requested size: 72.26688pt x 72.26688pt.
+
+<sbarrachina.png, id=1576, 450.68375pt x 513.92pt>
+File: sbarrachina.png Graphic file (type png)
+ <use sbarrachina.png>
+Package pdftex.def Info: sbarrachina.png used on input line 826.
+(pdftex.def)             Requested size: 72.26903pt x 82.40923pt.
+File: sbarrachina.png Graphic file (type png)
+
+<use sbarrachina.png>
+Package pdftex.def Info: sbarrachina.png used on input line 826.
+(pdftex.def)             Requested size: 72.26903pt x 82.40923pt.
+
+Underfull \hbox (badness 1859) in paragraph at lines 826--827
+\T1/ptm/n/n/8 and 2016, re-spec-tively, both from Uni-ver-si-tat
+ []
+
+<cristina2.png, id=1579, 727.71875pt x 820.06375pt>
+File: cristina2.png Graphic file (type png)
+ <use cristina2.png>
+Package pdftex.def Info: cristina2.png used on input line 829.
+(pdftex.def)             Requested size: 72.26535pt x 81.43556pt.
+File: cristina2.png Graphic file (type png)
+
+<use cristina2.png>
+Package pdftex.def Info: cristina2.png used on input line 829.
+(pdftex.def)             Requested size: 72.26535pt x 81.43556pt.
+ <selinis_pic.png, id=1582, 447.17062pt x 532.23843pt>
+File: selinis_pic.png Graphic file (type png)
+
+<use selinis_pic.png>
+Package pdftex.def Info: selinis_pic.png used on input line 832.
+(pdftex.def)             Requested size: 72.2652pt x 86.01262pt.
+File: selinis_pic.png Graphic file (type png)
+ <use selinis_pic.png>
+Package pdftex.def Info: selinis_pic.png used on input line 832.
+(pdftex.def)             Requested size: 72.2652pt x 86.01262pt.
+
+<bbellalta.png, id=1585, 679.48254pt x 723.63951pt>
+File: bbellalta.png Graphic file (type png)
+ <use bbellalta.png>
+Package pdftex.def Info: bbellalta.png used on input line 835.
+(pdftex.def)             Requested size: 72.26534pt x 76.9616pt.
+File: bbellalta.png Graphic file (type png)
+
+<use bbellalta.png>
+Package pdftex.def Info: bbellalta.png used on input line 835.
+(pdftex.def)             Requested size: 72.26534pt x 76.9616pt.
+File: bullet.png Graphic file (type png)
+ <use bullet.png>
+Package pdftex.def Info: bullet.png used on input line 838.
+(pdftex.def)             Requested size: 5.0pt x 14.6871pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 840.
+File: notaglineLogo.png Graphic file (type png)
+ <use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png used on input line 840.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[22 <./photo_fwilhelmi_1200_1200.jpg> <./sbarrachina.png> <./cristina2.png> <./
+selinis_pic.png> <./bbellalta.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 840.
+ (./tutorial_11ax_sr.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 840.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 840.
+Package rerunfilecheck Info: File `tutorial_11ax_sr.out' has not changed.
+(rerunfilecheck)             Checksum: 37562176C4168723ECC80472927DC26D;3043.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 840.
+ ) 
+Here is how much of TeX's memory you used:
+ 9678 strings out of 493014
+ 143593 string characters out of 6133351
+ 254924 words of memory out of 5000000
+ 12789 multiletter control sequences out of 15000+600000
+ 118129 words of font info for 166 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 32i,16n,53p,1752b,497s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{section*.2} has been referenced but does not exis
+t, replaced by a fixed one
+
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/he
+lvetic/uhvbo8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic
+/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pf
+b></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on tutorial_11ax_sr.pdf (22 pages, 12394669 bytes).
+PDF statistics:
+ 1706 PDF objects out of 1728 (max. 8388607)
+ 1287 compressed objects within 13 object streams
+ 203 named destinations out of 1000 (max. 500000)
+ 601 words of extra memory for PDF output out of 10000 (max. 10000000)
+
