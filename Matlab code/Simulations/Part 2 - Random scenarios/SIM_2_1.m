@@ -47,7 +47,7 @@ for s = 1 : NUM_TYPES_DENSITY
     for t = 1 : NUM_TYPES_TRAFFIC_LOAD
 
         % Indicate the path of the input file
-        file_name = "output_komondor/" + types_scenario_density{s} + types_traffic_load{t} + "script_output.txt";
+        file_name = "output_komondor/no_aggregation/" + types_scenario_density{s} + types_traffic_load{t} + "script_output.txt";
         delimiterIn = ';';                  % Delimiter used in the input file
         headerlinesIn = 0;                  % Lines belonging to headers
 

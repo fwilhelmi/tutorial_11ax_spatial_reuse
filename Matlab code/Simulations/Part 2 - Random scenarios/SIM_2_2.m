@@ -194,20 +194,18 @@ set(0,'defaultUipanelFontName','Helvetica');
 
 %% PART 2 - Plot the results
 
-for i = 3 : 3%NUM_TYPES_DENSITY
 % CHANNEL OCCUPANCY
-data1 = [default_time_channel_wlan_a{i,1} max_time_channel_wlan_a{i,1} default_time_channel_wlan_a_agg{i,1} max_time_channel_wlan_a_agg{i,1}; ...
-   default_time_channel_wlan_a{i,2} max_time_channel_wlan_a{i,2} default_time_channel_wlan_a_agg{i,2} max_time_channel_wlan_a_agg{i,2}; ...
-   default_time_channel_wlan_a{i,3} max_time_channel_wlan_a{i,3} default_time_channel_wlan_a_agg{i,3} max_time_channel_wlan_a_agg{i,3}];
+data1 = [default_time_channel_wlan_a{3,1} max_time_channel_wlan_a{3,1} default_time_channel_wlan_a_agg{3,1} max_time_channel_wlan_a_agg{3,1}; ...
+   default_time_channel_wlan_a{3,2} max_time_channel_wlan_a{3,2} default_time_channel_wlan_a_agg{3,2} max_time_channel_wlan_a_agg{3,2}; ...
+   default_time_channel_wlan_a{3,3} max_time_channel_wlan_a{3,3} default_time_channel_wlan_a_agg{3,3} max_time_channel_wlan_a_agg{3,3}];
 
-data2 = [default_time_channel_average{i,1} max_time_channel_average{i,1} default_time_channel_average_agg{i,1} max_time_channel_average_agg{i,1}; ...
-    default_time_channel_average{i,2} max_time_channel_average{i,2} default_time_channel_average_agg{i,2} max_time_channel_average_agg{i,2}; ...
-    default_time_channel_average{i,3} max_time_channel_average{i,3} default_time_channel_average_agg{i,3} max_time_channel_average_agg{i,3}];
+data2 = [default_time_channel_average{3,1} max_time_channel_average{3,1} default_time_channel_average_agg{3,1} max_time_channel_average_agg{3,1}; ...
+    default_time_channel_average{3,2} max_time_channel_average{3,2} default_time_channel_average_agg{3,2} max_time_channel_average_agg{3,2}; ...
+    default_time_channel_average{3,3} max_time_channel_average{3,3} default_time_channel_average_agg{3,3} max_time_channel_average_agg{3,3}];
 
 fig = figure('pos',[450 400 500 350]);
 axes;
 axis([1 20 30 70]);
-subplot(1,2,1)
 bar(data1)
 hold on 
 bar(data2,'LineStyle','--','FaceColor','none','linewidth',2.0) 
@@ -219,20 +217,19 @@ xticks(1:4)
 xticklabels({'1,000', '2,000', '10,000'})
 legend({'BSS_A (CCA/CS - NoAgg)', 'BSS_A (SR - NoAgg)', 'BSS_A (CCA/CS - Agg)', 'BSS_A (SR - Agg)', ...
     'Others (CCA/CS - NoAgg)', 'Others (SR - NoAgg)','Others (CCA/CS - Agg)', 'Others (SR - Agg)'})
-title(types_scenario_density{i})
 grid on
 grid minor
 % Save Figure
-%save_figure( fig, ['SIM_2_2_1_' num2str(i)], './Simulations/Output/Random/' )
+%save_figure( fig, 'SIM_2_2_1', './Simulations/Output/Random/' )
 
 % THROUGHPUT
-data1 = [default_tpt_wlan_a{i,1} max_tpt_wlan_a{i,1} default_tpt_wlan_a_agg{i,1} max_tpt_wlan_a_agg{i,1}; ...
-   default_tpt_wlan_a{i,2} max_tpt_wlan_a{i,2} default_tpt_wlan_a_agg{i,2} max_tpt_wlan_a_agg{i,2}; ...
-   default_tpt_wlan_a{i,3} max_tpt_wlan_a{i,3} default_tpt_wlan_a_agg{i,3} max_tpt_wlan_a_agg{i,3}];
+data1 = [default_tpt_wlan_a{3,1} max_tpt_wlan_a{3,1} default_tpt_wlan_a_agg{3,1} max_tpt_wlan_a_agg{3,1}; ...
+   default_tpt_wlan_a{3,2} max_tpt_wlan_a{3,2} default_tpt_wlan_a_agg{3,2} max_tpt_wlan_a_agg{3,2}; ...
+   default_tpt_wlan_a{3,3} max_tpt_wlan_a{3,3} default_tpt_wlan_a_agg{3,3} max_tpt_wlan_a_agg{3,3}];
 
-data2 = [default_tpt_average{i,1} max_tpt_average{i,1} default_tpt_average_agg{i,1} max_tpt_average_agg{i,1}; ...
-    default_tpt_average{i,2} max_tpt_average{i,2} default_tpt_average_agg{i,2} max_tpt_average_agg{i,2}; ...
-    default_tpt_average{i,3} max_tpt_average{i,3} default_tpt_average_agg{i,3} max_tpt_average_agg{i,3}];
+data2 = [default_tpt_average{3,1} max_tpt_average{3,1} default_tpt_average_agg{3,1} max_tpt_average_agg{3,1}; ...
+    default_tpt_average{3,2} max_tpt_average{3,2} default_tpt_average_agg{3,2} max_tpt_average_agg{3,2}; ...
+    default_tpt_average{3,3} max_tpt_average{3,3} default_tpt_average_agg{3,3} max_tpt_average_agg{3,3}];
 
 data1(:,2)-data1(:,1)
 data1(:,4)-data1(:,3)
@@ -240,27 +237,24 @@ data1(:,4)-data1(:,3)
 data2(:,2)-data2(:,1)
 data2(:,4)-data2(:,3)
 
-% fig = figure('pos',[450 400 500 350]);
-% axes;
-% axis([1 20 30 70]);
-subplot(1,2,2)
+fig = figure('pos',[450 400 500 350]);
+axes;
+axis([1 20 30 70]);
 bar(data1)
 hold on 
 bar(data2,'LineStyle','--','FaceColor','none','linewidth',2.0) 
 set(gca, 'FontSize', 18)
 xlabel('Traffic load (pkt/s)','fontsize', 20)
 ylabel('Throughtput (Mbps)','fontsize', 20)
-axis([0, 4, 0, 100])
+axis([0, 4, 0, 60])
 xticks(1:4)
 xticklabels({'1,000', '2,000', '10,000'})
 legend({'BSS_A (CCA/CS - NoAgg)', 'BSS_A (SR - NoAgg)', 'BSS_A (CCA/CS - Agg)', 'BSS_A (SR - Agg)', ...
     'Others (CCA/CS - NoAgg)', 'Others (SR - NoAgg)','Others (CCA/CS - Agg)', 'Others (SR - Agg)'})
-title(types_scenario_density{i})
 grid on
 grid minor
 % Save Figure
-%save_figure( fig, ['SIM_2_2_2_' num2str(i)], './Simulations/Output/Random/' )
-end
+%save_figure( fig, 'SIM_2_2_2', './Simulations/Output/Random/' )
 
 %% PART 3 - Save the workspace
-save('./Simulations/Output/Random/SIM_2_2.mat')
+%save('./Simulations/Output/Random/SIM_2_2.mat')
