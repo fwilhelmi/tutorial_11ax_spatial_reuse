@@ -91,6 +91,37 @@ disp(['    - WLAN_A ' num2str(RMSE1)])
 disp(['    - WLAN_B ' num2str(RMSE2)])
 disp(['    - WLAN_C ' num2str(RMSE3)])
 
+disp('MSE of the throughput of each WLAN:')
+disp(['    - WLAN_A ' num2str(MSE1)])
+disp(['    - WLAN_B ' num2str(MSE2)])
+disp(['    - WLAN_C ' num2str(MSE3)])
+
+disp('MAE of the throughput of each WLAN:')
+disp(['    - WLAN_A ' num2str(mean(mean(abs(E1))))])
+disp(['    - WLAN_B ' num2str(mean(mean(abs(E2))))])
+disp(['    - WLAN_C ' num2str(mean(mean(abs(E3))))])
+
+disp('MAD of the throughput of each WLAN:')
+disp(['    - WLAN_A ' num2str(mean(std(abs(E1))))])
+disp(['    - WLAN_B ' num2str(mean(std(abs(E2))))])
+disp(['    - WLAN_C ' num2str(mean(std(abs(E3))))])
+
+
+fig = figure('pos',[450 400 700 500]);
+axes;
+axis([1 20 30 70]);
+abs_A = abs(E1);
+cdfplot(abs_A(:))
+hold on
+abs_B = abs(E2);
+cdfplot(abs_B(:))
+abs_C = abs(E3);
+cdfplot(abs_C(:))
+grid on
+grid minor
+set(gca, 'FontSize', 18)
+legend({'BSS_A', 'BSS_B','BSS_C'})
+
 %% PART 2 - Plot the results
 % 1 - Set font type
 set(0,'defaultUicontrolFontName','Helvetica');
@@ -157,23 +188,23 @@ individual_legacy_tpt = ind_tpt_per_tpc_and_cca_value_w3(cca_levels_srg == -82, 
 surf(individual_legacy_tpt, 'FaceAlpha', 0.1, 'EdgeColor', 'r', 'LineWidth', 1.0);
 grid on
 grid minor
-% Max-min throughput
-subplot(2,2,4) % upper subplot 
-surf(min_tpt_per_tpc_and_cca_value)
-hold on
-set(gca, 'FontSize', 18)
-xlabel('SRG OBSS PD (dBm)','fontsize', 15)
-ylabel('non-SRG OBSS PD (dBm)','fontsize', 15)
-zlabel('min(\Gamma) (Mbps)','fontsize', 16)
-axis([0, size(cca_levels_srg, 2), 1, size(cca_levels_srg, 2), 0, 53])
-xticks(1:5:size(cca_levels_srg, 2))
-xticklabels(cca_levels_srg(1:5:size(cca_levels_srg,2)))
-yticks(1:5:size(cca_levels_srg, 2))
-yticklabels(cca_levels_srg(1:5:size(cca_levels_srg,2)))
-grid on
-grid minor
-% Save Figure
-save_figure( fig, 'SIM_1_2_sfctmn', './Simulations/Output/Toy_scenario_2/' )
+% % Max-min throughput
+% subplot(2,2,4) % upper subplot 
+% surf(min_tpt_per_tpc_and_cca_value)
+% hold on
+% set(gca, 'FontSize', 18)
+% xlabel('SRG OBSS PD (dBm)','fontsize', 15)
+% ylabel('non-SRG OBSS PD (dBm)','fontsize', 15)
+% zlabel('min(\Gamma) (Mbps)','fontsize', 16)
+% axis([0, size(cca_levels_srg, 2), 1, size(cca_levels_srg, 2), 0, 53])
+% xticks(1:5:size(cca_levels_srg, 2))
+% xticklabels(cca_levels_srg(1:5:size(cca_levels_srg,2)))
+% yticks(1:5:size(cca_levels_srg, 2))
+% yticklabels(cca_levels_srg(1:5:size(cca_levels_srg,2)))
+% grid on
+% grid minor
+% % Save Figure
+% save_figure( fig, 'SIM_1_2_sfctmn', './Simulations/Output/Toy_scenario_2/' )
 
 % PLOT THE INDIVIDUAL THROUGHPUTS (ALL TOGETHER) - OUTPUT Komondor
 fig = figure('pos',[450 400 700 500]);
@@ -233,22 +264,22 @@ surf(individual_legacy_tpt, 'FaceAlpha', 0.1, 'EdgeColor', 'r', 'LineWidth', 1.0
 grid on
 grid minor
 % Max-min throughput
-subplot(2,2,4) % upper subplot 
-surf(min_tpt_per_tpc_and_cca_value)
-hold on
-set(gca, 'FontSize', 18)
-xlabel('SRG OBSS PD (dBm)','fontsize', 15)
-ylabel('non-SRG OBSS PD (dBm)','fontsize', 15)
-zlabel('min(\Gamma) (Mbps)','fontsize', 16)
-axis([0, size(cca_levels_srg, 2), 1, size(cca_levels_srg, 2), 0, 53])
-xticks(1:5:size(cca_levels_srg, 2))
-xticklabels(cca_levels_srg(1:5:size(cca_levels_srg,2)))
-yticks(1:5:size(cca_levels_srg, 2))
-yticklabels(cca_levels_srg(1:5:size(cca_levels_srg,2)))
-individual_legacy_tpt = mean_tpt_per_cca_value_wlan_c(cca_levels_srg == -82, cca_levels_non_srg == -82) * ... 
-    ones(size(cca_levels_srg,2), size(cca_levels_srg,2));
-surf(individual_legacy_tpt, 'FaceAlpha', 0.1, 'EdgeColor', 'r', 'LineWidth', 1.0);
-grid on
-grid minor
-% Save Figure
-save_figure( fig, 'SIM_1_2_komondor', './Simulations/Output/Toy_scenario_2/' )
+% subplot(2,2,4) % upper subplot 
+% surf(min_tpt_per_tpc_and_cca_value)
+% hold on
+% set(gca, 'FontSize', 18)
+% xlabel('SRG OBSS PD (dBm)','fontsize', 15)
+% ylabel('non-SRG OBSS PD (dBm)','fontsize', 15)
+% zlabel('min(\Gamma) (Mbps)','fontsize', 16)
+% axis([0, size(cca_levels_srg, 2), 1, size(cca_levels_srg, 2), 0, 53])
+% xticks(1:5:size(cca_levels_srg, 2))
+% xticklabels(cca_levels_srg(1:5:size(cca_levels_srg,2)))
+% yticks(1:5:size(cca_levels_srg, 2))
+% yticklabels(cca_levels_srg(1:5:size(cca_levels_srg,2)))
+% individual_legacy_tpt = mean_tpt_per_cca_value_wlan_c(cca_levels_srg == -82, cca_levels_non_srg == -82) * ... 
+%     ones(size(cca_levels_srg,2), size(cca_levels_srg,2));
+% surf(individual_legacy_tpt, 'FaceAlpha', 0.1, 'EdgeColor', 'r', 'LineWidth', 1.0);
+% grid on
+% grid minor
+% % Save Figure
+% save_figure( fig, 'SIM_1_2_komondor', './Simulations/Output/Toy_scenario_2/' )

@@ -66,7 +66,7 @@ function [ Power_AP_PSI_cell, Power_STA_PSI_cell, SINR_cell, Tx_Power_Linear_PSI
                 power_detection_threshold(wlan_ix) = wlans(wlan_ix).srg_obss_pd;
             end   
             % Determine the transmit power used in each state
-            tx_power(wlan_ix) = min(TX_POWER_MAX, wlans(wlan_ix).tx_power - 3 * (num_channels - 1));
+            tx_power(wlan_ix) = min(TX_POWER_MAX, wlans(wlan_ix).tx_power - 3 * (num_channels - 1));    
             if power_restriction_activated{psi_ix}(wlan_ix) == 1
                 % - Apply power restriction
                 tx_power_max = apply_tx_power_restriction( ...

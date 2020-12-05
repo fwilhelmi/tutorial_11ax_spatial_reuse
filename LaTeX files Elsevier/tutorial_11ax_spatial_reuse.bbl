@@ -16,11 +16,11 @@ M~Shahwaiz Afaqui, EG~Villegas, and EL~Aguilera.
 \newblock {\em IEEE Wireless Communications}, 99:2--9, 2016.
 
 \bibitem{qu2018survey}
-Qiao Qu, Bo~Li, Mao Yang, Zhongjiang Yan, Annan Yang, Jian Yu, Ming Gan, Yunbo
-  Li, Xun Yang, Osama Aboul-Magd, et~al.
-\newblock {Survey and Performance Evaluation of the Upcoming Next Generation
-  WLAN Standard-IEEE 802.11 ax}.
-\newblock {\em arXiv preprint arXiv:1806.05908}, 2018.
+Qiao Qu, Bo~Li, Mao Yang, Zhongjiang Yan, Annan Yang, Der-Jiunn Deng, and
+  Kwang-Cheng Chen.
+\newblock Survey and performance evaluation of the upcoming next generation
+  {WLANs} standard-{IEEE} 802.11 ax.
+\newblock {\em Mobile Networks and Applications}, 24(5):1461--1474, 2019.
 
 \bibitem{khorov2018tutorial}
 Evgeny Khorov, Anton Kiryanov, Andrey Lyakhov, and Giuseppe Bianchi.
@@ -181,8 +181,8 @@ Ioannis Selinis, Konstantinos Katsaros, Seiamak Vahid, and Rahim Tafazolli.
 
 \bibitem{ropitault2018evaluation}
 Tanguy Ropitault.
-\newblock Evaluation of rtot algorithm: A first implementation of
-  obss\_pd-based sr method for ieee 802.11 ax.
+\newblock Evaluation of {RTOT} algorithm: A first implementation of
+  {OBSS\_PD}-based {SR} method for {IEEE 802.11} ax.
 \newblock In {\em 2018 15th IEEE Annual Consumer Communications \& Networking
   Conference (CCNC)}, pages 1--7. IEEE, 2018.
 
@@ -211,27 +211,35 @@ Matthew Fischer.
 \newblock {Simulation-based evaluation of OBSS PD based SR default parameters,
   doc.: IEEE 802.11-16/1161r1}, September 2016.
 
-\bibitem{malone2007verification}
-David Malone, Ian Dangerfield, and Doug Leith.
-\newblock Verification of common 802.11 mac model assumptions.
-\newblock In {\em International Conference on Passive and Active Network
-  Measurement}, pages 63--72. Springer, 2007.
+\bibitem{bellalta2014throughput}
+Boris Bellalta, Alessandro Zocca, Cristina Cano, Alessandro Checco, Jaume
+  Barcelo, and Alexey Vinel.
+\newblock {Throughput analysis in CSMA/CA networks using continuous time Markov
+  networks: a tutorial}.
+\newblock In {\em Wireless Networking for Moving Objects}, pages 115--133.
+  Springer, 2014.
 
-\bibitem{huang2010validity}
-Kaidi Huang, Ken~R Duffy, and David Malone.
-\newblock On the validity of ieee 802.11 mac modeling hypotheses.
-\newblock {\em IEEE/ACM Transactions on Networking}, 18(6):1935--1948, 2010.
+\bibitem{bellalta2016throughput}
+Boris Bellalta.
+\newblock Throughput analysis in high density {WLANs}.
+\newblock {\em IEEE Communications Letters}, 21(3):592--595, 2016.
+
+\bibitem{barrachina2019dynamic}
+Sergio Barrachina-Mu{\~n}oz, Francesc Wilhelmi, and Boris Bellalta.
+\newblock {Dynamic Channel Bonding in Spatially Distributed High-Density
+  WLANs}.
+\newblock {\em IEEE Transactions on Mobile Computing}, 2019.
+
+\bibitem{barrachina2019overlap}
+Sergio Barrachina-Mu{\~n}oz, Francesc Wilhelmi, and Boris Bellalta.
+\newblock To overlap or not to overlap: Enabling channel bonding in
+  high-density {WLANs}.
+\newblock {\em Computer Networks}, 152:40--53, 2019.
 
 \bibitem{gupta2000capacity}
 Piyush Gupta and Panganmala~R Kumar.
 \newblock The capacity of wireless networks.
 \newblock {\em IEEE Transactions on information theory}, 46(2):388--404, 2000.
-
-\bibitem{elsawy2016modeling}
-Hesham ElSawy, Ahmed Sultan-Salem, Mohamed-Slim Alouini, and Moe~Z Win.
-\newblock Modeling and analysis of cellular networks using stochastic geometry:
-  A tutorial.
-\newblock {\em IEEE Communications Surveys \& Tutorials}, 19(1):167--203, 2016.
 
 \bibitem{zhao2016stochastic}
 Xiaoguang Zhao, Xiangming Wen, Tao Lei, Zhaoming Lu, and Biao Zhang.
@@ -255,23 +263,16 @@ Motoki Iwata, Koji Yamamoto, Bo~Yin, Takayuki Nishio, Masahiro Morikura, and
   adaptation in ieee 802.11 ax wlans.
 \newblock {\em IEEE Access}, 7:161916--161927, 2019.
 
-\bibitem{bellalta2014throughput}
-Boris Bellalta, Alessandro Zocca, Cristina Cano, Alessandro Checco, Jaume
-  Barcelo, and Alexey Vinel.
-\newblock {Throughput analysis in CSMA/CA networks using continuous time Markov
-  networks: a tutorial}.
-\newblock In {\em Wireless Networking for Moving Objects}, pages 115--133.
-  Springer, 2014.
+\bibitem{nguyen2007stochastic}
+Huu~Quynh Nguyen, Fran{\c{c}}ois Baccelli, and Daniel Kofman.
+\newblock A stochastic geometry analysis of dense ieee 802.11 networks.
+\newblock In {\em IEEE INFOCOM 2007-26th IEEE International Conference on
+  Computer Communications}, pages 1199--1207. IEEE, 2007.
 
-\bibitem{bellalta2017throughput}
-Boris Bellalta.
-\newblock {Throughput Analysis in High Density WLANs}.
-\newblock {\em IEEE Communications Letters}, 21(3):592--595, 2017.
-
-\bibitem{bellalta2016throughput}
-Boris Bellalta.
-\newblock Throughput analysis in high density wlans.
-\newblock {\em IEEE Communications Letters}, 21(3):592--595, 2016.
+\bibitem{union2015imt}
+IT~Union.
+\newblock Imt traffic estimates for the years 2020 to 2030.
+\newblock {\em Report ITU}, pages 2370--0, 2015.
 
 \bibitem{michaloliakos2016performance}
 Antonios Michaloliakos, Ryan Rogalin, Yonglong Zhang, Konstantinos Psounis, and
@@ -279,28 +280,17 @@ Antonios Michaloliakos, Ryan Rogalin, Yonglong Zhang, Konstantinos Psounis, and
 \newblock Performance modeling of next-generation wifi networks.
 \newblock {\em Computer Networks}, 105:150--165, 2016.
 
-\bibitem{barrachina2019dynamic}
-Sergio Barrachina-Mu{\~n}oz, Francesc Wilhelmi, and Boris Bellalta.
-\newblock {Dynamic Channel Bonding in Spatially Distributed High-Density
-  WLANs}.
-\newblock {\em IEEE Transactions on Mobile Computing}, 2019.
-
-\bibitem{barrachina2019overlap}
-Sergio Barrachina-Mu{\~n}oz, Francesc Wilhelmi, and Boris Bellalta.
-\newblock {To overlap or not to overlap: Enabling channel bonding in
-  high-density WLANs}.
-\newblock {\em Computer Networks}, 152:40--53, 2019.
+\bibitem{liew2010back}
+Soung~Chang Liew, Cai~Hong Kai, Hang~Ching Leung, and Piu Wong.
+\newblock Back-of-the-envelope computation of throughput distributions in csma
+  wireless networks.
+\newblock {\em IEEE Transactions on Mobile Computing}, 9(9):1319--1331, 2010.
 
 \bibitem{wilhelmi2019sfctm_spatial_reuse}
 Francesc Wilhelmi and Sergio Barrachina-Mu\~noz.
 \newblock {IEEE 802.11ax Single-Channel Spatial Reuse in the Spatial Flexible
   Continuous Time Markov Network (11axSR-SFCTMN)}.
 \newblock \url{https://github.com/sergiobarra/SFCTMN}, 2019.
-
-\bibitem{pathloss11ax}
-S.~Merlin et~al.
-\newblock {TGax Simulation Scenarios}.
-\newblock doc. IEEE 802.11-14/0980r16, 2016.
 
 \bibitem{bankov2018ofdma}
 Dmitry Bankov, Andre Didenko, Evgeny Khorov, and Andrey Lyakhov.
@@ -324,10 +314,10 @@ Maddalena Nurchis and Boris Bellalta.
 \newblock {Target wake time: scheduled access in IEEE 802.11 ax WLANs}.
 \newblock {\em IEEE Wireless Communications}, 26(2):142--150, 2019.
 
-\bibitem{smith2015dynamic}
-G~Smith.
-\newblock Dynamic sensitivity control-v2.
-\newblock {\em IEEE}, 802:802--11, 2015.
+\bibitem{smith2017dynamic}
+Graham~Kenneth Smith.
+\newblock Dynamic sensitivity control for wireless devices, March~14 2017.
+\newblock US Patent 9,596,702.
 
 \bibitem{long2007non}
 Chengnian Long, Qian Zhang, Bo~Li, Huilong Yang, and Xinping Guan.
@@ -361,5 +351,10 @@ Euhanna Ghadimi, Francesco~Davide Calabrese, Gunnar Peters, and Pablo Soldati.
 Lisa Ward.
 \newblock {1MA222: IEEE 802.11ax Technology Introduction}.
 \newblock {\em Rhode \& Schwarz. White paper 10.2016 - 1MA222\_0e}, 2017.
+
+\bibitem{pathloss11ax}
+Simone Merlin, G~Barriac, H~Sampath, et~al.
+\newblock Tgax simulation scenarios.
+\newblock {\em IEEE802}, pages 11--14, 2015.
 
 \end{thebibliography}

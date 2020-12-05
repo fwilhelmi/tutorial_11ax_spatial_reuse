@@ -7,47 +7,51 @@ I was expecting a `,' or a `}'---line 130 of file references.bib
  :  author="Jamil, Imad and Cariou, Laurent and H{\'e}lard, Jean-Fran"
  :                                                                    \c"c"ois",
 I'm skipping whatever remains of this entry
+Repeated entry---line 569 of file references.bib
+ : @article{michaloliakos2016performance
+ :                                      ,
+I'm skipping whatever remains of this entry
 Warning--empty journal in jamil2016novel
 Warning--empty year in jamil2016novel
-You've used 57 entries,
+You've used 56 entries,
             1791 wiz_defined-function locations,
-            744 strings with 15179 characters,
-and the built_in function-call counts, 16169 in all, are:
-= -- 1525
-> -- 717
-< -- 25
-+ -- 261
-- -- 204
-* -- 1074
-:= -- 2415
-add.period$ -- 190
-call.type$ -- 57
-change.case$ -- 57
+            745 strings with 15043 characters,
+and the built_in function-call counts, 16270 in all, are:
+= -- 1549
+> -- 704
+< -- 27
++ -- 256
+- -- 200
+* -- 1069
+:= -- 2401
+add.period$ -- 187
+call.type$ -- 56
+change.case$ -- 56
 chr.to.int$ -- 0
-cite$ -- 59
-duplicate$ -- 732
-empty$ -- 1543
-format.name$ -- 204
-if$ -- 3725
+cite$ -- 58
+duplicate$ -- 746
+empty$ -- 1546
+format.name$ -- 200
+if$ -- 3771
 int.to.chr$ -- 0
-int.to.str$ -- 57
-missing$ -- 53
-newline$ -- 285
-num.names$ -- 57
+int.to.str$ -- 56
+missing$ -- 52
+newline$ -- 280
+num.names$ -- 56
 pop$ -- 209
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 384
+skip$ -- 411
 stack$ -- 0
-substring$ -- 1189
-swap$ -- 251
-text.length$ -- 25
+substring$ -- 1219
+swap$ -- 272
+text.length$ -- 27
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 174
-width$ -- 59
-write$ -- 635
-(There was 1 error message)
+while$ -- 175
+width$ -- 58
+write$ -- 626
+(There were 2 error messages)
