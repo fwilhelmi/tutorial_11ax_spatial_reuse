@@ -7,10 +7,6 @@ I was expecting a `,' or a `}'---line 130 of file references.bib
  :  author="Jamil, Imad and Cariou, Laurent and H{\'e}lard, Jean-Fran"
  :                                                                    \c"c"ois",
 I'm skipping whatever remains of this entry
-Repeated entry---line 569 of file references.bib
- : @article{michaloliakos2016performance
- :                                      ,
-I'm skipping whatever remains of this entry
 Warning--empty journal in jamil2016novel
 Warning--empty year in jamil2016novel
 You've used 56 entries,
@@ -54,4 +50,4 @@ warning$ -- 2
 while$ -- 175
 width$ -- 58
 write$ -- 626
-(There were 2 error messages)
+(There was 1 error message)
